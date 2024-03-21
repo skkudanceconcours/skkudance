@@ -1,0 +1,97 @@
+<?php include("../../header.php"); ?>
+<link rel="stylesheet" href="/archive/2022_work/performance/css/style.css">
+<link rel="stylesheet" href="/archive/2022_work/performance/css/media.css">
+<link rel="stylesheet" href="/archive/2022_work/performance/css/swipebox.css">
+<div class="contents contemporary">
+	<div class="go_back">
+		<a href="/archive/2022_work/performance/ballet.html" class="btn">작품목록<img src="/img/more_img.png" alt="더보기아이콘"></a>
+	</div>
+	<div class="contem_inner">
+		<div class="title">PERFORMANCE</div>
+		<div class="big_title">발레<span>Ballet</span></div>
+	</div>
+	<div class="detail_contents">
+		<div class="title_box">
+			<p class="title_p">Sleeping Beauty 中에서,</p>
+		</div>
+		<div class="explan_box">
+			<p class="title_p">작품내용</p>
+			<p class="dec_p">프랑스 작가 '샤를 페로'의 동화를 원작으로 만들어진 작품으로, <br class="pc_hidden mobile_show"/> 본 공연에서는 3막 오로라 공조의 결혼식을 축하하는 장면을 <br class="pc_hidden mobile_show"/>재구성하였다.</p>
+		</div>
+		<div class="dec_box">
+			<div class="dec_wrap">
+				<div class="dec_wrap_box">	
+					<span>재구성</span>	 
+					<span>|</span> 
+					<span>김경희,장수진</span>
+				</div>
+				<div class="dec_wrap_box">
+					<span>안무</span>
+					<span>|</span>
+					<span>M. Petipa</span>
+				</div>
+				<div class="dec_wrap_box">
+					<span>음악</span>
+					<span>|</span>
+					<span>P. Tchaikovsky</span>
+				</div>
+				<div class="dec_wrap_box">
+					<span>출연</span>
+					<span>|</span>
+					<span>권유정,권현서,김주아,김지민,박진우,박태준,신소은,엄유진,유지선,이다영,이채원,최예주</span>
+				</div>
+			</div>
+		</div>
+		<div class="video">
+			<img src="/archive/2022_work/performance/img/B_1.png" class="youyube">
+		</div>
+		
+		<!-- <div class="container sketch">
+			<p class="title_p">공연스케치</p>
+			<div class="wrap">
+				<div id="try"></div>
+				<ul id="box-container">
+					<li class="box">
+						<a href="../img/ballet_04_sketch01.jpg" class="swipebox" rel="gallery">
+							<img src="../img/ballet_04_sketch01_thum.jpg" alt="image">
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div> -->
+	</div>
+
+	<!--라이트박스-->
+	<script src="/performance/js/jquery.swipebox.js"></script>
+	<script type="text/javascript">
+	$( document ).ready(function() {
+
+			/* Basic Gallery */
+			$( '.swipebox' ).swipebox({
+				loopAtEnd: true
+			});
+			
+			/* Dynamic Gallery */
+			$( '#gallery' ).on( 'click', function( e ) {
+				e.preventDefault();
+				$.swipebox( [
+					{ href : 'demo/images/big-1.jpg', title : 'My Caption' },
+					{ href : 'demo/images/big-2.jpg', title : 'My Second Caption' }
+				] );
+			} );
+
+			/* Smooth scroll */
+			$( '.scroll' ).on( 'click', function () {
+				$( 'html, body' ).animate( { scrollTop: $( $( this ).attr('href') ).offset().top - 15 }, 750 ); // Go
+				return false;
+			});
+      });
+	</script>
+	<!--페이지별 헤더이미지 로드-->
+	<script type="text/javascript">
+		  $(document).ready(function(){
+			$('#skku_wrap .skku_inner').css({ "background": "url(/archive/2022_work/performance/img/sub_header_bg_ballet_ver2.jpg)",'background-repeat' : 'no-repeat', 'background-position':'center center' })
+		});
+	</script>
+</div>
+<?php include("../../footer.php"); ?>

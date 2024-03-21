@@ -1,0 +1,98 @@
+.pc_hidden {display: none;}
+
+
+    
+
+    
+/* **************************************** *
+ * 1280px
+ * **************************************** */ 
+@media screen and (max-width: 1280px) {
+.performance_2021{max-width:90%;margin: 0 auto;}
+.performance_2021 .title{font-size: 16px;}
+.performance_2021 .big_title{font-size: 30px;}
+.performance_2021 .big_title span{font-size: 26px;}
+
+
+.performance_2021 .box_row ul li a .t_box .t_title{font-size: 20px;}
+.performance_2021 .box_row ul li a .t_box .t_dec{font-size: 13px;}
+
+}
+        
+        
+
+    
+
+    
+/* **************************************** *
+ * 1024px
+ * **************************************** */     
+@media screen and (max-width: 1024px) {
+.performance_2021{padding-top: 100px;padding-bottom: 150px;}
+
+    
+
+
+}
+        
+
+           
+ 
+
+
+/* **************************************** *
+ * 768px
+ * **************************************** */       
+@media screen and (max-width: 768px) {          
+.display_show_768 {display: block;}
+.display_none_768 {display: none;}
+
+.performance_2021{padding: 15% 0;}
+.performance_2021 .title{font-size: 20px;}
+.performance_2021 .big_title{font-size: 35px;}
+.performance_2021 .big_title span{font-size: 32px;}
+.performance_2021 .box_row{margin-top: 11%;}
+.performance_2021 .box_row ul li:nth-child(2){margin-right: 0;}
+.performance_2021 .box_row ul li{width: 47%;margin-bottom: 10%;}
+.performance_2021 .box_row ul li a .t_box .t_title{font-size: 24px;}
+.performance_2021 .box_row ul li a .t_box .t_dec{font-size: 16px;}        
+}
+
+/* **************************************** *
+ * 600px
+ * **************************************** */            
+@media screen and (max-width: 600px) {
+.display_show_600 {display: block;}
+.display_none_600 {display: none;}
+
+
+
+.performance_2021 .title{font-size: 15px;}
+.performance_2021 .big_title{font-size: 30px;}
+.performance_2021 .big_title span{font-size: 22px;}
+.performance_2021 .box_row ul li{width: 100%;margin-bottom: 10%;}
+.performance_2021 .box_row ul li:nth-child(1){margin-right: 0;}
+.performance_2021 .box_row ul li a .t_box .t_title{font-size: 20px;}
+.performance_2021 .box_row ul li a .t_box .t_dec{font-size: 13px;}
+
+}
+        
+        
+        
+ 
+        
+/* **************************************** *
+ * 414px
+ * **************************************** */           
+@media screen and (max-width: 414px) {
+.performance_2021 .title{font-size: 12px;}
+.performance_2021 .big_title{font-size: 25px;}
+.performance_2021 .big_title span{font-size: 17px;}
+
+
+.performance_2021 .box_row ul li a .t_box .t_title{font-size: 18px;}
+.performance_2021 .box_row ul li a .t_box .t_dec{font-size: 11px;}
+}
+
+        
+        

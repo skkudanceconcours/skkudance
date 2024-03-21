@@ -1,0 +1,103 @@
+<?php include("../../header.php"); ?>
+<link rel="stylesheet" href="/archive/2023_work/performance/css/style.css">
+<link rel="stylesheet" href="/archive/2023_work/performance/css/media.css">
+<link rel="stylesheet" href="/archive/2023_work/performance/css/swipebox.css">
+<div class="contents contemporary">
+	<div class="go_back">
+		<a href="/archive/2023_work/performance/ballet.html" class="btn">작품목록<img src="/img/more_img.png" alt="더보기아이콘"></a>
+	</div>
+	<div class="contem_inner">
+		<div class="title">PERFORMANCE</div>
+		<div class="big_title">발레<span>Ballet</span></div>
+	</div>
+	<div class="detail_contents">
+		<div class="title_box">
+			<p class="title_p">『Coppélia』 中에서</p>
+		</div>
+		<div class="explan_box">
+			<p class="title_p">작품내용</p>
+			<p class="dec_p">
+				괴짜 과학자 코펠리우스가 만든 인형 코펠리아를 실제 살아있는 사람으로 착각하면서 벌어지는 이야기로, 본 공연에서는 1막 스와닐다 친구들과 프란츠의 솔로를 재구성하였다.
+			</p>
+		</div>
+		<div class="dec_box">
+			<div class="dec_wrap">
+				<ul>
+					<li>재구성 |</li>
+					<li>김경희</li>
+				</ul>
+				<ul>
+					<li>안무 |</li>
+					<li>A. Saint-Léon</li>
+				</ul>
+				<ul>
+					<li>음악 |</li>
+					<li>L. Delibes</li>
+				</ul>
+				<div>안무 및 출연 | 김민영, 김민채, 김지민, 박소현, 안은영, 오현석, 조아영, 조예원, 지서현, 차수현, 편하은, 한예린</div>
+			</div>
+		</div>
+
+		<div class="container sketch">
+			<p class="title_p">공연스케치</p>
+			<div class="wrap">
+				<div id="try"></div>
+				<ul id="box-container">
+					<li class="box">
+						<a href="../img/ballet_04_sketch01.jpg" class="swipebox" rel="gallery">
+							<img src="../img/ballet_04_sketch01_thum.jpg" alt="image">
+						</a>
+					</li>
+					<li class="box">
+						<a href="../img/ballet_04_sketch02.jpg" class="swipebox" rel="gallery">
+							<img src="../img/ballet_04_sketch02_thum.jpg" alt="image">
+						</a>
+					</li>
+					<li class="box">
+						<a href="../img/ballet_04_sketch03.jpg" class="swipebox" rel="gallery">
+							<img src="../img/ballet_04_sketch03_thum.jpg" alt="image">
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="video" style="margin-top: 5%;">
+			<img src="/archive/2023_work/performance/img/B_1.jpg" class="증명사진">
+		</div>		
+	</div>
+
+	<!--라이트박스-->
+	<script src="/performance/js/jquery.swipebox.js"></script>
+	<script type="text/javascript">
+	$( document ).ready(function() {
+
+			/* Basic Gallery */
+			$( '.swipebox' ).swipebox({
+				loopAtEnd: true
+			});
+			
+			/* Dynamic Gallery */
+			$( '#gallery' ).on( 'click', function( e ) {
+				e.preventDefault();
+				$.swipebox( [
+					{ href : 'demo/images/big-1.jpg', title : 'My Caption' },
+					{ href : 'demo/images/big-2.jpg', title : 'My Second Caption' }
+				] );
+			} );
+
+			/* Smooth scroll */
+			$( '.scroll' ).on( 'click', function () {
+				$( 'html, body' ).animate( { scrollTop: $( $( this ).attr('href') ).offset().top - 15 }, 750 ); // Go
+				return false;
+			});
+      });
+	</script>
+	<!--페이지별 헤더이미지 로드-->
+	<script type="text/javascript">
+		  $(document).ready(function(){
+			$('#skku_wrap .skku_inner').css({ "background": "url(/performance/img/sub_header_bg_ballet_ver2.jpg)",'background-repeat' : 'no-repeat', 'background-position':'center center' })
+		});
+	</script>
+</div>
+<?php include("../../footer.php"); ?>

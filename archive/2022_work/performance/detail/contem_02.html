@@ -1,0 +1,107 @@
+<?php include("../../header.php"); ?>
+<link rel="stylesheet" href="/archive/2022_work/performance/css/style.css">
+<link rel="stylesheet" href="/archive/2022_work/performance/css/media.css">
+<link rel="stylesheet" href="/archive/2022_work/performance/css/swipebox.css">
+<div class="contents contemporary">
+	<div class="go_back">
+		<a href="/archive/2022_work/performance/contemporary.html" class="btn">작품목록<img src="/img/more_img.png" alt="더보기아이콘"></a>
+	</div>
+	<div class="contem_inner">
+		<div class="title">PERFORMANCE</div>
+		<div class="big_title">컨템포러리 댄스<span>Contemporary Dance</span></div>
+	</div>
+	<div class="detail_contents">
+		<div class="title_box">
+			<p class="title_p">우리는 음악을 듣지 않기로 했다</p>
+		</div>
+		<div class="explan_box">
+			<p class="title_p">작품내용</p>
+			<p class="dec_p">사람들은 무용 공연을 보면서 무엇을 생각할까?<br>
+				<br>
+				우리 또한 무대 위에서 무엇을 하고 싶은지에 대해 고민했다. <br>
+				<br>
+				우리는 우리가 무용수로써 여태까지 경험해보지 못했던 <br class="pc_hidden mobile_show"/>공연 방식으로 공연을 해보고 싶다.<br>
+				기승전결이 없는 공연을 해보고 싶다.<br>
+				<br>
+				그래서 우리는 화면에서 나오는 글과는 정반대로 행동했다.<br>
+				우리는 지시대로 하지 않기로 했다.
+			</p>
+		</div>
+		<!-- <div class="music_box">
+			<p class="title_p">음악</p>
+			<p class="dec_p">
+				Sleep Walk-Santo & Johnny
+			</p>
+		</div> -->
+
+		<div class="dec_box">
+			<div class="dec_wrap">
+				<div class="dec_wrap_box">	
+					<span>음악</span>	 
+					<span>|</span> 
+					<span>Sleep Walk-Santo & Johnny</span>
+				</div>
+				<div class="dec_wrap_box">
+					<span>출연</span>	 
+					<span>|</span>
+					<span>김동범,김민형,김지민,노은희,박진주,서효정,이새한,이유진</span>	
+				</div>
+			</div>
+		</div>
+		<div class="video">
+			<img src="/archive/2022_work/performance/img/C_3.png" class="youyube">
+		</div>
+		<!-- <div class="container sketch">
+			<p class="title_p">공연스케치</p>
+			<div class="wrap">
+				<div id="try"></div>
+				<ul id="box-container">
+					<li class="box">
+						<a href="../img/contem_02_sketch01.jpg" class="swipebox" rel="gallery">
+							<img src="../img/contem_02_sketch01_thum.jpg" alt="image">
+						</a>
+					</li>
+					<li class="box">
+						<a href="../img/contem_02_sketch02.jpg" class="swipebox" rel="gallery">
+							<img src="../img/contem_02_sketch02_thum.jpg" alt="image">
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div> -->
+	</div>
+
+	<!--라이트박스-->
+	<script src="/performance/js/jquery.swipebox.js"></script>
+	<script type="text/javascript">
+	$( document ).ready(function() {
+
+			/* Basic Gallery */
+			$( '.swipebox' ).swipebox({
+				loopAtEnd: true
+			});
+			
+			/* Dynamic Gallery */
+			$( '#gallery' ).on( 'click', function( e ) {
+				e.preventDefault();
+				$.swipebox( [
+					{ href : 'demo/images/big-1.jpg', title : 'My Caption' },
+					{ href : 'demo/images/big-2.jpg', title : 'My Second Caption' }
+				] );
+			} );
+
+			/* Smooth scroll */
+			$( '.scroll' ).on( 'click', function () {
+				$( 'html, body' ).animate( { scrollTop: $( $( this ).attr('href') ).offset().top - 15 }, 750 ); // Go
+				return false;
+			});
+      });
+	</script>
+	<!--페이지별 헤더이미지 로드-->
+	<script type="text/javascript">
+		  $(document).ready(function(){
+			$('#skku_wrap .skku_inner').css({ "background": "url(/archive/2022_work/performance/img/sub_header_bg_comtemporary.jpg)",'background-repeat' : 'no-repeat', 'background-position':'center center' })
+		});
+	</script>
+</div>
+<?php include("../../footer.php"); ?>

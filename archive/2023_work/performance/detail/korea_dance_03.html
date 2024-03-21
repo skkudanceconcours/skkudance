@@ -1,0 +1,115 @@
+<?php include("../../header.php"); ?>
+<link rel="stylesheet" href="/archive/2023_work/performance/css/style.css">
+<link rel="stylesheet" href="/archive/2023_work/performance/css/media.css">
+<link rel="stylesheet" href="/archive/2023_work/performance/css/swipebox.css">
+<div class="contents contemporary">
+	<div class="go_back">
+		<a href="/archive/2023_work/performance/korean_dance.html" class="btn">작품목록<img src="/img/more_img.png" alt="더보기아이콘"></a>
+	</div>
+	<div class="contem_inner">
+		<div class="title">PERFORMANCE</div>
+		<div class="big_title">한국무용<span>Korean Dance</span></div>
+	</div>
+	<div class="detail_contents">
+		<div class="title_box">
+			<p class="title_p">지우개마저 청춘을 지우지 못한다</p>
+		</div>
+		<div class="explan_box">
+			<p class="title_p">작품내용</p>
+			<p class="dec_p">
+				초여름의 익숙한 향기, 어째서 나는 예전처럼 순수한 마음으로 세상을 바라볼 수가 없는 것일까? 
+				찬란했던 그때의 그리움에 그저 미소만 나올 뿐이다.<br>
+				과거의 나도, 지금의 나도, 모두 나 자신이지만, 
+				찬란했던 그 청춘의 시절을 잊지 못한다. 
+				어쩌면 나 자신을 외면하고 부정하고 싶었던 것은 아닐까?<br>
+				미래에는 지금의 나를 그리워하는 순간이 오겠지.<br>
+				지금, 나는 여전히 나로서 존재한다. 청춘을 마음속에 새기고, 
+				지금의 나는 그저 찬란하게 춤추길 기대해본다.
+			</p>
+		</div>
+		<div class="dec_box">
+			<div class="dec_wrap">
+				<!-- <ul>
+					<li>지도교수 |</li>
+					<li> 이영은, 박성아</li>
+				</ul>
+				<ul>
+					<li>안무 |</li>
+					<li>2학년 13명 전원</li>
+				</ul> -->
+				<ul>
+					<li>음악 |</li>
+					<li>Flying Bos-검정치마 <br/>
+						Road man-김재덕<br/>
+						우연-청각예술(출처:youtube)<br/>
+						Sympathy For Lady Vengeance-Jo Yeong-Wook
+					</li>
+				</ul>
+				<ul>
+					<li>출연 |</li>
+					<li>강나윤, 경서진, 곽승주, 김민섭, 김수현, 김유나, 김윤서, 심연우, 유혜승, 윤선우, 이현지, 장하나, 최현민</li>
+				</ul>
+			</div>
+		</div>
+		<div class="container sketch">
+			<p class="title_p">공연스케치</p>
+			<div class="wrap">
+				<div id="try"></div>
+				<ul id="box-container">
+					<li class="box">
+						<a href="/archive/2023_work/performance/img/kd_03_sketch01.jpg" class="swipebox" rel="gallery">
+							 <img src="/archive/2023_work/performance/img/kd_03_sketch01_thum.jpg" alt="image"> 
+						</a>
+					</li>
+					<li class="box">
+						<a href="/archive/2023_work/performance/img/kd_03_sketch02.jpg" class="swipebox" rel="gallery">
+							 <img src="/archive/2023_work/performance/img/kd_03_sketch02_thum.jpg" alt="image"> 
+						</a>
+					</li>
+					<li class="box">
+						<a href="/archive/2023_work/performance/img/kd_03_sketch03.jpg" class="swipebox" rel="gallery">
+							 <img src="/archive/2023_work/performance/img/kd_03_sketch03_thum.jpg" alt="image"> 
+						</a>
+					</li>
+			</div>
+		</div>
+
+		<div class="video" style="margin-top: 5%;">
+			<img src="/archive/2023_work/performance/img/K_2.jpg" class="youyube">	 
+		</div>	
+	</div>
+
+	<!--라이트박스-->
+	<script src="/performance/js/jquery.swipebox.js"></script>
+	<script type="text/javascript">
+	$( document ).ready(function() {
+
+			/* Basic Gallery */
+			$( '.swipebox' ).swipebox({
+				loopAtEnd: true
+			});
+			
+			/* Dynamic Gallery */
+			$( '#gallery' ).on( 'click', function( e ) {
+				e.preventDefault();
+				$.swipebox( [
+					{ href : 'demo/images/big-1.jpg', title : 'My Caption' },
+					{ href : 'demo/images/big-2.jpg', title : 'My Second Caption' }
+				] );
+			} );
+
+			/* Smooth scroll */
+			$( '.scroll' ).on( 'click', function () {
+				$( 'html, body' ).animate( { scrollTop: $( $( this ).attr('href') ).offset().top - 15 }, 750 ); // Go
+				return false;
+			});
+      });
+	</script>
+	<!--페이지별 헤더이미지 로드-->
+	<script type="text/javascript">
+		  $(document).ready(function(){
+			$('#skku_wrap .skku_inner').css({ "background": "url(/performance/img/sub_header_bg_korea_dance.jpg)",'background-repeat' : 'no-repeat', 'background-position':'center center' })
+		});
+	</script>
+</div>
+<?php include("../../footer.php"); ?>

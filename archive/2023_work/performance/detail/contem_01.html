@@ -1,0 +1,110 @@
+<?php include("../../header.php"); ?>
+<link rel="stylesheet" href="/archive/2023_work/performance/css/style.css">
+<link rel="stylesheet" href="/archive/2023_work/performance/css/media.css">
+<link rel="stylesheet" href="/archive/2023_work/performance/css/swipebox.css">
+<div class="contents contemporary">
+	<div class="go_back">
+		<a href="/archive/2023_work/performance/contemporary.html" class="btn">작품목록<img src="/img/more_img.png" alt="더보기아이콘"></a>
+	</div>
+	<div class="contem_inner">
+		<div class="title">PERFORMANCE</div>
+		<div class="big_title">컨템포러리 댄스<span>Contemporary Dance</span></div>
+	</div>
+	<div class="detail_contents">
+		<div class="title_box">
+			<p class="title_p">성장, 그 내면은</p>
+		</div>
+		<div class="explan_box">
+			<p class="title_p">작품내용</p>
+			<p class="dec_p">
+				우리는 지금까지의 성장에 대한 내용을 다루어보았다. 개개인의 성장을 통해 발전해 나간 긍정적인 부분, 어두운 부분 등을 다루었으며 여기서 끝이 아닌, 앞으로 계속 펼쳐 나갈 성장의 모습을 개인의 성향에 빗대어 표현하였다.
+				<br><br>
+				사람의 성장이란, 한 인격으로서 더욱 발전해 더 나은 사람이 되어가는 과정이다. 다양한 성향을 지닌 개개인이 조화로운 단체로 섞여지기 위해 각자만의 방식으로 노력한다고 본다. 이러한 노력을 통해 만들어진 결과물은 우리의 성장이라고 볼 수 있지 않을까?
+			</p>
+		</div>
+		<div class="dec_box">
+			<div class="dec_wrap">
+				<!-- <ul>
+					<li>지도교수 |</li>
+					<li>김나이, 우혜주</li>
+				</ul>
+				<ul>
+					<li>안무 |</li>
+					<li>김나이</li>
+				</ul> -->
+				<ul>
+					<li>음악 |</li>
+					<li>
+						백색소음(딥 스페이스)
+					</li>
+				</ul>
+				<ul>
+					<li>출연 |</li>
+					<li>고예슬, 김동범, 김민서, 김민형, 김영주, 김지민, 노은희, 박진주, 서효정, 이새한, 이유진, 홍여진</li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="container sketch">
+			<p class="title_p">공연스케치</p>
+			<div class="wrap">
+				<div id="try"></div>
+				<ul id="box-container">
+					<li class="box">
+						<a href="../img/contem_01_sketch01.jpg" class="swipebox" rel="gallery">
+							<img src="../img/contem_01_sketch01_thum.jpg" alt="image">
+						</a>
+					</li>
+					<li class="box">
+						<a href="../img/contem_01_sketch02.jpg" class="swipebox" rel="gallery">
+							<img src="../img/contem_01_sketch02_thum.jpg" alt="image">
+						</a>
+					</li>
+					<li class="box">
+						<a href="../img/contem_01_sketch03.jpg" class="swipebox" rel="gallery">
+							<img src="../img/contem_01_sketch03_thum.jpg" alt="image">
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		
+		<div class="video" style="margin-top: 5%;">
+			<img src="/archive/2023_work/performance/img/C_4.jpg" class="증명사진">
+		</div>		
+	</div>
+
+	<!--라이트박스-->
+	<script src="/performance/js/jquery.swipebox.js"></script>
+	<script type="text/javascript">
+	$( document ).ready(function() {
+
+			/* Basic Gallery */
+			$( '.swipebox' ).swipebox({
+				loopAtEnd: true
+			});
+			
+			/* Dynamic Gallery */
+			$( '#gallery' ).on( 'click', function( e ) {
+				e.preventDefault();
+				$.swipebox( [
+					{ href : 'demo/images/big-1.jpg', title : 'My Caption' },
+					{ href : 'demo/images/big-2.jpg', title : 'My Second Caption' }
+				] );
+			} );
+
+			/* Smooth scroll */
+			$( '.scroll' ).on( 'click', function () {
+				$( 'html, body' ).animate( { scrollTop: $( $( this ).attr('href') ).offset().top - 15 }, 750 ); // Go
+				return false;
+			});
+      });
+	</script>
+	<!--페이지별 헤더이미지 로드-->
+	<script type="text/javascript">
+		  $(document).ready(function(){
+			$('#skku_wrap .skku_inner').css({ "background": "url(/performance/img/sub_header_bg_comtemporary.jpg)",'background-repeat' : 'no-repeat', 'background-position':'center center' })
+		});
+	</script>
+</div>
+<?php include("../../footer.php"); ?>

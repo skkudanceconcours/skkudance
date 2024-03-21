@@ -1,0 +1,128 @@
+<?php include("../../header.php"); ?>
+<link rel="stylesheet" href="/archive/2021/performance/css/style.css">
+<link rel="stylesheet" href="/archive/2021/performance/css/media.css">
+<link rel="stylesheet" href="/archive/2021/performance/css/swipebox.css">
+<div class="contents contemporary">
+	<div class="go_back">
+		<a href="/archive/2021/performance/korean_dance.html" class="btn">작품목록<img src="/img/more_img.png" alt="더보기아이콘"></a>
+	</div>
+	<div class="contem_inner">
+		<div class="title">PERFORMANCE</div>
+		<div class="big_title">한국무용<span>Korean Dance</span></div>
+	</div>
+	<div class="detail_contents">
+		<div class="title_box">
+			<p class="title_p">미개봉 중고품</p>
+		</div>
+		<div class="explan_box">
+			<p class="title_p">작품내용</p>
+			<p class="dec_p"><b>1장</b>	<br/>
+				백일몽, 충족되지 못한 욕망을 충족시키기 위하여 헛된 세계를 상상하는 것. <br/>
+				저마다의 목표를 향해 나아가며 언젠가 있을 것이 라 꿈꿔왔던 시간은 한낱 백일몽이었던 것인가.<br/><br/>
+				
+				
+				<b>2장</b><br/>
+				로망에 기대하던 우리는 갑작스럽게 ‘코로나’라는 현실과 마주 하게 된다. <br/>
+				이 현실에서 우리는 벗어나고자 발버둥 치지만 이 어두운 현실에 갇힌 우리는 로망과 멀어져간다.<br/><br/>
+				
+				
+				<b>3장</b><br/>
+				코로나가 사라지고 희망과 새로움으로 가득 찬 걸음, 걸음<br/>
+				북소리인지 심장소리인지 모를 정도의 가슴이 두근대는<br/>
+				우리의 새로운 출발 코로나가 지나간 후 우리의 설렘은 시작되었다.
+			</p>
+		</div>
+		<div class="dec_box">
+			<p class="dec_p">출연 |  1팀 - 서홍민, 하유진, 이재연, 임효리 / 2팀 - 윤서영, 김윤서, 이정현, 서유리, 강진비 / 3팀 - 박세민, 전윤아, 홍나영, 김서연</p>
+		</div>
+		<div class="video">
+			<img src="/archive/2021/performance/img/Unopened.jpg" class="youyube">
+			<div class="video_wrap">
+				<iframe src="https://www.youtube.com/embed/O2rizJ3NrPE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>
+		</div>
+		
+		<div class="container sketch">
+			<p class="title_p">현장스케치</p>
+			<div class="wrap">
+				<div id="try"></div>
+				<ul id="box-container">
+					<li class="box">
+						<a href="/archive/2021/performance/img/second_big_01.jpg" class="swipebox" rel="gallery">
+							<img src="/archive/2021/performance/img/second_sk_01.jpg" alt="image">
+						</a>
+					</li>
+					<li class="box">
+						<a href="/archive/2021/performance/img/second_big_02.jpg" class="swipebox" rel="gallery">
+							<img src="/archive/2021/performance/img/second_sk_02.jpg" alt="image">
+						</a>
+					</li>
+					<li class="box">
+						<a href="/archive/2021/performance/img/second_big_03.jpg" class="swipebox" rel="gallery">
+							<img src="/archive/2021/performance/img/second_sk_03.jpg" alt="image">
+						</a>
+					</li>
+					<li class="box">
+						<a href="/archive/2021/performance/img/second_big_04.jpg" class="swipebox" rel="gallery">
+							<img src="/archive/2021/performance/img/second_sk_04.jpg" alt="image">
+						</a>
+					</li>
+					<li class="box">
+						<a href="/archive/2021/performance/img/second_big_05.jpg" class="swipebox" rel="gallery">
+							<img src="/archive/2021/performance/img/second_sk_05.jpg" alt="image">
+						</a>
+					</li>
+					<li class="box">
+						<a href="/archive/2021/performance/img/second_big_06.jpg" class="swipebox" rel="gallery">
+							<img src="/archive/2021/performance/img/second_sk_06.jpg" alt="image">
+						</a>
+					</li>
+					<li class="box">
+						<a href="/archive/2021/performance/img/second_big_07.jpg" class="swipebox" rel="gallery">
+							<img src="/archive/2021/performance/img/second_sk_07.jpg" alt="image">
+						</a>
+					</li>
+					<li class="box">
+						<a href="/archive/2021/performance/img/second_big_08.jpg" class="swipebox" rel="gallery">
+							<img src="/archive/2021/performance/img/second_sk_08.jpg" alt="image">
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<!--라이트박스-->
+	<script src="/archive/2021/performance/js/jquery.swipebox.js"></script>
+	<script type="text/javascript">
+	$( document ).ready(function() {
+
+			/* Basic Gallery */
+			$( '.swipebox' ).swipebox({
+				loopAtEnd: true
+			});
+			
+			/* Dynamic Gallery */
+			$( '#gallery' ).on( 'click', function( e ) {
+				e.preventDefault();
+				$.swipebox( [
+					{ href : 'demo/images/big-1.jpg', title : 'My Caption' },
+					{ href : 'demo/images/big-2.jpg', title : 'My Second Caption' }
+				] );
+			} );
+
+			/* Smooth scroll */
+			$( '.scroll' ).on( 'click', function () {
+				$( 'html, body' ).animate( { scrollTop: $( $( this ).attr('href') ).offset().top - 15 }, 750 ); // Go
+				return false;
+			});
+      });
+	</script>
+	<!--페이지별 헤더이미지 로드-->
+	<script type="text/javascript">
+		  $(document).ready(function(){
+			$('#skku_wrap .skku_inner').css({ "background": "url(/archive/2021/performance/img/sub_header_bg_korea_dance.jpg)",'background-repeat' : 'no-repeat', 'background-position':'center center' })
+		});
+	</script>
+</div>
+<?php include("../../footer.php"); ?>

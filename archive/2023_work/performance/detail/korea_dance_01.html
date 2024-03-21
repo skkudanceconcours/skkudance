@@ -1,0 +1,115 @@
+<?php include("../../header.php"); ?>
+<link rel="stylesheet" href="/archive/2023_work/performance/css/style.css">
+<link rel="stylesheet" href="/archive/2023_work/performance/css/media.css">
+<link rel="stylesheet" href="/archive/2023_work/performance/css/swipebox.css">
+<div class="contents contemporary">
+	<div class="go_back">
+		<a href="/archive/2023_work/performance/korean_dance.html" class="btn">작품목록<img src="/img/more_img.png" alt="더보기아이콘"></a>
+	</div>
+	<div class="contem_inner">
+		<div class="title">PERFORMANCE</div>
+		<div class="big_title">한국무용<span>Korean Dance</span></div>
+	</div>
+	<div class="detail_contents">
+		<div class="title_box">
+			<p class="title_p">지나가듯이</p>
+		</div>
+		<div class="explan_box">
+			<p class="title_p">작품내용</p>
+			<p class="dec_p" style="word-break: keep-all;">
+				건들보름<br>
+				초가을에 선들선들 부는 바람.<br>
+				잠깐 피우다가 사라지거나 그만두는 바람<br><br>
+
+				우리의 순간들은 늘 아주 잠시 우리의 삶 속에 피우다 사라져버린다.
+				살면서 누구에게나 이러한 순간들은 바람으로 찾아오게 되고, 
+				그 안에서 우리는 자신의 바람 을 마주하게 된다.
+				그리고 그 순간들 안에서 각자의 바람을 안고 홀로, 때로는 함께 수없이 부딪히고 나아가며 불어온다.<br>
+				우리는 지금 이 찰나의 순간에 모여 함께하였던 그 귀중한 순간의 기억들을 간직한 채 새로이 다시금 각자의 순간들로 한 걸음 나아가려 한다.
+				함께한 우리의 순간이 우리의 삶 속에 영원하길 바라며
+
+			</p>
+		</div>
+		<div class="dec_box">
+			<div class="dec_wrap">
+				<!-- <ul>
+					<li>지도교수 |</li>
+					<li>김옥순, 정혁준</li>
+				</ul>
+				<ul>
+					<li>안무 |</li>
+					<li>국수호</li>
+				</ul> -->
+				<ul>
+					<li>음악 |</li>
+					<li>MU - 김재덕<br>Melancholy- Alexey Kosenko</li>
+				</ul>
+				<ul>
+					<li>출연 |</li>
+					<li>강진비, 김서연, 김윤서, 박세민, 서유리, 서홍민, 윤서영, 이정현, 이재연, 임효리, 전윤아, 하유진, 홍나영</li>
+				</ul>
+			</div>
+		</div>
+		
+		<div class="container sketch">
+			<p class="title_p">공연스케치</p>
+			<div class="wrap">
+				<div id="try"></div>
+				<ul id="box-container">
+					<li class="box">
+						<a href="/archive/2023_work/performance/img/kd_01_sketch01.jpg" class="swipebox" rel="gallery">
+							 <img src="/archive/2023_work/performance/img/kd_01_sketch01_thum.jpg" alt="image"> 
+						</a>
+					</li>
+					<li class="box">
+						<a href="/archive/2023_work/performance/img/kd_01_sketch02.jpg" class="swipebox" rel="gallery">
+							 <img src="/archive/2023_work/performance/img/kd_01_sketch02_thum.jpg" alt="image"> 
+						</a>
+					</li>
+					<li class="box">
+						<a href="/archive/2023_work/performance/img/kd_01_sketch03.jpg" class="swipebox" rel="gallery">
+							 <img src="/archive/2023_work/performance/img/kd_01_sketch03_thum.jpg" alt="image"> 
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="video" style="margin-top: 5%;">
+			<img src="/archive/2023_work/performance/img/K_4.jpg" class="youyube">	 
+		</div>	
+	</div>
+
+	<!--라이트박스-->
+	<script src="/performance/js/jquery.swipebox.js"></script>
+	<script type="text/javascript">
+	$( document ).ready(function() {
+
+			/* Basic Gallery */
+			$( '.swipebox' ).swipebox({
+				loopAtEnd: true
+			});
+			
+			/* Dynamic Gallery */
+			$( '#gallery' ).on( 'click', function( e ) {
+				e.preventDefault();
+				$.swipebox( [
+					{ href : 'demo/images/big-1.jpg', title : 'My Caption' },
+					{ href : 'demo/images/big-2.jpg', title : 'My Second Caption' }
+				] );
+			} );
+
+			/* Smooth scroll */
+			$( '.scroll' ).on( 'click', function () {
+				$( 'html, body' ).animate( { scrollTop: $( $( this ).attr('href') ).offset().top - 15 }, 750 ); // Go
+				return false;
+			});
+      });
+	</script>
+	<!--페이지별 헤더이미지 로드-->
+	<script type="text/javascript">
+		  $(document).ready(function(){
+			$('#skku_wrap .skku_inner').css({ "background": "url(/performance/img/sub_header_bg_korea_dance.jpg)",'background-repeat' : 'no-repeat', 'background-position':'center center' })
+		});
+	</script>
+</div>
+<?php include("../../footer.php"); ?>

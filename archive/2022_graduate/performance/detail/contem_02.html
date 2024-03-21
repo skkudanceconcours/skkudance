@@ -1,0 +1,91 @@
+<?php include("../../header.php"); ?>
+<link rel="stylesheet" href="/archive/2022_graduate/performance/css/style.css">
+<link rel="stylesheet" href="/archive/2022_graduate/performance/css/media.css">
+<link rel="stylesheet" href="/archive/2022_graduate/performance/css/swipebox.css">
+<div class="contents contemporary">
+	<div class="go_back">
+		<a href="/archive/2022_graduate/performance/contemporary.html" class="btn">작품목록<img src="/img/more_img.png" alt="더보기아이콘"></a>
+	</div>
+	<div class="contem_inner">
+		<div class="title">PERFORMANCE</div>
+		<div class="big_title">컨템포러리 댄스<span>Contemporary Dance</span></div>
+	</div>
+	<div class="detail_contents">
+		<div class="title_box">
+			<p class="title_p">밀려오는 충동</p>
+		</div>
+		<div class="explan_box">
+			<p class="title_p">작품내용</p>
+			<p class="dec_p">
+				파도는 강렬한 심리적 충동이나 움직임을 비유적으로 이르는 말이라고 한다.<br>
+				충동을 파도로 비유하여 표현하고 시간이 지나면 파도처럼 쳐서 가라앉음을 보여주고자 한다.
+			</p>
+		</div>
+		<div class="dec_box">
+			<p class="dec_p">
+				음악 | At the End of Nothing - Silver Maple<br/>
+				안무 및 출연 | 신윤희
+			</p>
+		</div>
+		<div class="video">
+			<span><img src="/archive/2022_graduate/performance/img/Contemporary_p2.jpg" class="증명사진"> </span>
+		</div>
+		<div class="container sketch">
+			<p class="title_p">공연스케치</p>
+			<div class="wrap">
+				<div id="try"></div>
+				<ul id="box-container">
+					<li class="box">
+						<a href="../img/contem_02_sketch01.jpg" class="swipebox" rel="gallery">
+							<img src="../img/contem_02_sketch01_thum.jpg" alt="image">
+						</a>
+					</li>
+					<li class="box">
+						<a href="../img/contem_02_sketch02.jpg" class="swipebox" rel="gallery">
+							<img src="../img/contem_02_sketch02_thum.jpg" alt="image">
+						</a>
+					</li>
+					<li class="box">
+						<a href="../img/contem_02_sketch03.jpg" class="swipebox" rel="gallery">
+							<img src="../img/contem_02_sketch03_thum.jpg" alt="image">
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<!--라이트박스-->
+	<script src="/performance/js/jquery.swipebox.js"></script>
+	<script type="text/javascript">
+	$( document ).ready(function() {
+
+			/* Basic Gallery */
+			$( '.swipebox' ).swipebox({
+				loopAtEnd: true
+			});
+			
+			/* Dynamic Gallery */
+			$( '#gallery' ).on( 'click', function( e ) {
+				e.preventDefault();
+				$.swipebox( [
+					{ href : 'demo/images/big-1.jpg', title : 'My Caption' },
+					{ href : 'demo/images/big-2.jpg', title : 'My Second Caption' }
+				] );
+			} );
+
+			/* Smooth scroll */
+			$( '.scroll' ).on( 'click', function () {
+				$( 'html, body' ).animate( { scrollTop: $( $( this ).attr('href') ).offset().top - 15 }, 750 ); // Go
+				return false;
+			});
+      });
+	</script>
+	<!--페이지별 헤더이미지 로드-->
+	<script type="text/javascript">
+		  $(document).ready(function(){
+			$('#skku_wrap .skku_inner').css({ "background": "url(/performance/img/sub_header_bg_comtemporary.jpg)",'background-repeat' : 'no-repeat', 'background-position':'center center' })
+		});
+	</script>
+</div>
+<?php include("../../footer.php"); ?>

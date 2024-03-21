@@ -1,0 +1,94 @@
+<?php include("../../header.php"); ?>
+<link rel="stylesheet" href="/archive/2022_graduate/performance/css/style.css">
+<link rel="stylesheet" href="/archive/2022_graduate/performance/css/media.css">
+<link rel="stylesheet" href="/archive/2022_graduate/performance/css/swipebox.css">
+<div class="contents contemporary">
+	<div class="go_back">
+		<a href="/archive/2022_graduate/performance/ballet.html" class="btn">작품목록<img src="/img/more_img.png" alt="더보기아이콘"></a>
+	</div>
+	<div class="contem_inner">
+		<div class="title">PERFORMANCE</div>
+		<div class="big_title">발레<span>Ballet</span></div>
+	</div>
+	
+	<div class="detail_contents">
+		<div class="title_box">
+			<p class="title_p">파퀴타 &lt;Paquita&gt; 3막, Paquita 7th variation</p>
+		</div>
+		<div class="explan_box">
+			<p class="title_p">작품내용</p>
+			<p class="dec_p">
+				&lt;파퀴타&gt;는 프랑스의 나폴레옹 군대가 점령하고 있는 에스파냐를
+                무대로 파퀴타와 루시앵의 사랑이야기를 다룬다.<br>
+                본 공연에서는 3막 결혼식에 온 파퀴타 친구들 중 7번째 작품을 선보인다.
+			</p>
+		</div>
+		<div class="dec_box">
+			<p class="dec_p">
+				안무 | 마리우스 프티파 (Marius Petipa)<br/>
+				음악 | 루드비히 밍크스 (Ludwig Minkus)<br/>
+				출연 | 오다해
+			</p>
+		</div>
+		<div class="video">
+			<span><img src="/archive/2022_graduate/performance/img/ballet_p6.jpg" class="증명사진"> </span>
+		</div>
+		<div class="container sketch">
+			<p class="title_p">공연스케치</p>
+			<div class="wrap">
+				<div id="try"></div>
+				<ul id="box-container">
+					<li class="box">
+						<a href="../img/ballet_06_sketch01.jpg" class="swipebox" rel="gallery">
+							<img src="../img/ballet_06_sketch01_thum.jpg" alt="image">
+						</a>
+					</li>
+					<li class="box">
+						<a href="../img/ballet_06_sketch02.jpg" class="swipebox" rel="gallery">
+							<img src="../img/ballet_06_sketch02_thum.jpg" alt="image">
+						</a>
+					</li>
+					<li class="box">
+						<a href="../img/ballet_06_sketch03.jpg" class="swipebox" rel="gallery">
+							<img src="../img/ballet_06_sketch03_thum.jpg" alt="image">
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<!--라이트박스-->
+	<script src="/performance/js/jquery.swipebox.js"></script>
+	<script type="text/javascript">
+	$( document ).ready(function() {
+
+			/* Basic Gallery */
+			$( '.swipebox' ).swipebox({
+				loopAtEnd: true
+			});
+			
+			/* Dynamic Gallery */
+			$( '#gallery' ).on( 'click', function( e ) {
+				e.preventDefault();
+				$.swipebox( [
+					{ href : 'demo/images/big-1.jpg', title : 'My Caption' },
+					{ href : 'demo/images/big-2.jpg', title : 'My Second Caption' }
+				] );
+			} );
+
+			/* Smooth scroll */
+			$( '.scroll' ).on( 'click', function () {
+				$( 'html, body' ).animate( { scrollTop: $( $( this ).attr('href') ).offset().top - 15 }, 750 ); // Go
+				return false;
+			});
+      });
+	</script>
+	<!--페이지별 헤더이미지 로드-->
+	<script type="text/javascript">
+		  $(document).ready(function(){
+			$('#skku_wrap .skku_inner').css({ "background": "url(/performance/img/sub_header_bg_ballet_ver2.jpg)",'background-repeat' : 'no-repeat', 'background-position':'center center' })
+		});
+	</script>
+</div>
+<?php include("../../footer.php"); ?>

@@ -1,0 +1,108 @@
+<?php include("../../header.php"); ?>
+<link rel="stylesheet" href="/archive/2022_work/performance/css/style.css">
+<link rel="stylesheet" href="/archive/2022_work/performance/css/media.css">
+<link rel="stylesheet" href="/archive/2022_work/performance/css/swipebox.css">
+<div class="contents contemporary">
+	<div class="go_back">
+		<a href="/archive/2022_work/performance/contemporary.html" class="btn">작품목록<img src="/img/more_img.png" alt="더보기아이콘"></a>
+	</div>
+	<div class="contem_inner">
+		<div class="title">PERFORMANCE</div>
+		<div class="big_title">컨템포러리 댄스<span>Contemporary Dance</span></div>
+	</div>
+	<div class="detail_contents">
+		<div class="title_box">
+			<p class="title_p">탈피</p>
+		</div>
+		<div class="explan_box">
+			<p class="title_p">작품내용</p>
+			<p class="dec_p">누구라도 그러하듯이, 입시는 먼 길이었다.<br/>
+				어떤 날은 회피하고 싶었고, 주저앉아 괴로움에 갇혀버릴 때도 있었고,<br/> 
+				온몸으로 뿌리치며 저항하는 날도 있었다.<br/>
+				우리는 억압에 순응하는 대신, 해방될 그 순간을 한 마음으로 기다린다.
+			</p>
+		</div>
+		<!-- <div class="music_box">
+			<p class="title_p">음악</p>
+			<p class="dec_p">
+				Fyrkat - Lulu Rouge<br/>
+			</p>
+		</div> -->
+		<div class="dec_box">
+			<div class="dec_wrap">
+				<div class="dec_wrap_box">	
+					<span>음악</span>	 
+					<span>|</span> 
+					<span>Fyrkat - Lulu Rouge</span>
+				</div>
+				<div class="dec_wrap_box">
+					<span>출연</span>	 
+					<span>|</span> 
+					<span>권우진,김두현,김소민,김수민,나윤재,심태겸,오상진,이시원,이재정,정선화,조채윤,최서영</span>	
+				</div>
+			</div>
+		</div>
+		<!-- <div class="dec_box">
+			<p class="dec_p">				
+				<span>출연</span>	 
+				<span>|</span>
+				<span>권우진,김두현,김소민,김수민,나윤재,심태겸,오상진,이시원,이재정,정선화,조채윤,최서영</span>
+			</p>
+		</div> -->
+		<div class="video">
+			<img src="/archive/2022_work/performance/img/C_1.png" class="youyube">
+		</div>
+		<!-- <div class="container sketch">
+			<p class="title_p">공연스케치</p>
+			<div class="wrap">
+				<div id="try"></div>
+				<ul id="box-container">
+					<li class="box">
+						<a href="../img/contem_04_sketch01.jpg" class="swipebox" rel="gallery">
+							<img src="../img/contem_04_sketch01_thum.jpg" alt="image">
+						</a>
+					</li>
+					<li class="box">
+						<a href="../img/contem_04_sketch02.jpg" class="swipebox" rel="gallery">
+							<img src="../img/contem_04_sketch02_thum.jpg" alt="image">
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div> -->
+	</div>
+
+	<!--라이트박스-->
+	<script src="/performance/js/jquery.swipebox.js"></script>
+	<script type="text/javascript">
+	$( document ).ready(function() {
+
+			/* Basic Gallery */
+			$( '.swipebox' ).swipebox({
+				loopAtEnd: true
+			});
+			
+			/* Dynamic Gallery */
+			$( '#gallery' ).on( 'click', function( e ) {
+				e.preventDefault();
+				$.swipebox( [
+					{ href : 'demo/images/big-1.jpg', title : 'My Caption' },
+					{ href : 'demo/images/big-2.jpg', title : 'My Second Caption' }
+				] );
+			} );
+
+			/* Smooth scroll */
+			$( '.scroll' ).on( 'click', function () {
+				$( 'html, body' ).animate( { scrollTop: $( $( this ).attr('href') ).offset().top - 15 }, 750 ); // Go
+				return false;
+			});
+      });
+	</script>
+	<!--페이지별 헤더이미지 로드-->
+	<script type="text/javascript">
+		  $(document).ready(function(){
+			$('#skku_wrap .skku_inner').css({ "background": "url(/archive/2022_work/performance/img/sub_header_bg_comtemporary.jpg)",'background-repeat' : 'no-repeat', 'background-position':'center center' })
+		});
+	</script>
+</div>
+<?php include("../../footer.php"); ?>

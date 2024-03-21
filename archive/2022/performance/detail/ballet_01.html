@@ -1,0 +1,81 @@
+<?php include("../../header.php"); ?>
+<link rel="stylesheet" href="/archive/2022/performance/css/style.css">
+<link rel="stylesheet" href="/archive/2022/performance/css/media.css">
+<link rel="stylesheet" href="/archive/2022/performance/css/swipebox.css">
+<div class="contents contemporary">
+	<div class="go_back">
+		<a href="/archive/2022/performance/ballet.html" class="btn">작품목록<img src="/img/more_img.png" alt="더보기아이콘"></a>
+	</div>
+	<div class="contem_inner">
+		<div class="title">PERFORMANCE</div>
+		<div class="big_title">발레<span>Ballet</span></div>
+	</div>
+	<div class="detail_contents">
+		<div class="title_box">
+			<p class="title_p">해적 &#60;Le Corsaire&#62; 2막, <br>Bedroom pas de deux</p>
+		</div>
+		<div class="explan_box">
+			<p class="title_p">작품내용</p>
+			<p class="dec_p"> &#60;해적&#62;은 콘라드를 위시한 해적들이 파샤에게 팔려간 메도라와 궐나라를 구출하고 모험을 떠나는 내용을 다루고 있다.<br>본 공연에서는 2막 중 메도라와 콘라드의 달콤한 사랑 이야기를 선보인다.<br/>
+			</p>
+		</div>
+		<div class="dec_box">
+			<p class="dec_p">
+				안무 | 마리우스 프티파 (Marius Petipa)<br>
+				음악 | 아돌프 아당 (Adolphe Adam) <br>
+				출연 | 강소연, 박정호</p>
+		</div>
+		<div class="video">
+			<span class="first"><img src="../img/ballet_p1.jpg" class="증명사진"> </span>		
+			<span><img src="../img/ballet_p2.jpg" class="증명사진"> </span>		
+		</div>
+
+		<div class="container sketch">
+			<p class="title_p">공연스케치</p>
+			<div class="wrap">
+				<div id="try"></div>
+				<ul id="box-container">
+					<li class="box">
+						<a href="../img/ballet_01_sketch01.jpg" class="swipebox" rel="gallery">
+							<img src="../img/ballet_01_sketch01_thum.jpg" alt="image">
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<!--라이트박스-->
+	<script src="/performance/js/jquery.swipebox.js"></script>
+	<script type="text/javascript">
+	$( document ).ready(function() {
+
+			/* Basic Gallery */
+			$( '.swipebox' ).swipebox({
+				loopAtEnd: true
+			});
+			
+			/* Dynamic Gallery */
+			$( '#gallery' ).on( 'click', function( e ) {
+				e.preventDefault();
+				$.swipebox( [
+					{ href : 'demo/images/big-1.jpg', title : 'My Caption' },
+					{ href : 'demo/images/big-2.jpg', title : 'My Second Caption' }
+				] );
+			} );
+
+			/* Smooth scroll */
+			$( '.scroll' ).on( 'click', function () {
+				$( 'html, body' ).animate( { scrollTop: $( $( this ).attr('href') ).offset().top - 15 }, 750 ); // Go
+				return false;
+			});
+      });
+	</script>
+	<!--페이지별 헤더이미지 로드-->
+	<script type="text/javascript">
+		  $(document).ready(function(){
+			$('#skku_wrap .skku_inner').css({ "background": "url(../img/sub_header_bg_ballet_ver2.jpg)",'background-repeat' : 'no-repeat', 'background-position':'center center' })
+		});
+	</script>
+</div>
+<?php include("../../footer.php"); ?>
