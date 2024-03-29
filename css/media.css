@@ -5,7 +5,8 @@
   #skku_wrap .header .menu_content {
   }
   #skku_wrap .contents .main {
-    height: 125vh;
+    height: 100dvh;
+    font-family: Noto;
   } /*쇼케이스용*/
 
   #skku_wrap .contents .main .main_img_wrap .img_wrap {
@@ -17,6 +18,9 @@
   }
 
   #skku_wrap .contents .main .content {
+    position: absolute;
+    left: 10%;
+    bottom: -1%;
     padding: 0px 0 50px;
   }
   #skku_wrap .contents .main .content .random {
@@ -84,7 +88,7 @@
   }
   /* #skku_wrap .contents .main .content .random {font-size: 45px !important;} */
   #skku_wrap .contents .main .content .smal {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   #skku_wrap .contents .main .main_img_wrap .img_wrap img {
@@ -101,7 +105,7 @@
   #skku_wrap .contents .h_deps,
   #skku_wrap .contents .o_deps,
   #skku_wrap .contents .t_deps {
-    height: 120vh;
+    height: 100dvh;
   }
 }
 
@@ -126,6 +130,7 @@
   #skku_wrap .contents .main .content .random {
     font-size: 50px;
   }
+  #skku_wrap .contents .main .content .smal{font-size: 18px;}
 
   #skku_wrap .contents .main .main_img_wrap .img_wrap {
     padding-bottom: 35.25%;
@@ -229,7 +234,7 @@
   #skku_wrap .contents .h_deps,
   #skku_wrap .contents .o_deps,
   #skku_wrap .contents .t_deps {
-    height: 130vh;
+    height: 100dvh;
   }
   #skku_wrap .contents .a_deps {
     height: 140vh;
@@ -253,7 +258,7 @@
     letter-spacing: -6px;
   }
   #skku_wrap .contents .main .content .smal {
-    font-size: 20px;
+    font-size: 16px;
   }
   #skku_wrap .contents .o_deps .txt .title a,
   #skku_wrap .contents .t_deps .txt .title a,
@@ -292,6 +297,10 @@
  * 1240px
  * **************************************** */
 @media all and (max-width: 1240px) {
+  #skku_wrap .contents .main .content .box{
+    font-size: 44px; /*font-size: 50px;*/
+  }
+  #skku_wrap .contents .main .content .smal{font-size: 17.6px;}
 }
 
 /* **************************************** *
@@ -306,7 +315,7 @@
   #skku_wrap .contents .main,
   #skku_wrap .contents .h_deps,
   #skku_wrap .contents .o_deps {
-    height: 120vh;
+    height: 100dvh;
   }
 
   #skku_wrap .contents .a_deps .container ul.tabs {
@@ -429,12 +438,18 @@
     color: #888;
   }
   #skku_wrap .contents .main .content {
-    padding-top: 100px;
+    position: absolute;
+    left: 7%;
+    padding-top: 100px;    
+  }
+  #skku_wrap .contents .main .content .box{
+    font-size: 40px;
   }
   #skku_wrap .contents .main .content .box2 {
     display: block;
   }
   #skku_wrap .contents .main .content .smal {
+
   }
   #skku_wrap .contents .main .video,
   #skku_wrap .contents .main .sm {
@@ -513,6 +528,15 @@
     background: #000;
     color: #fff;
   }
+  #skku_wrap .contents .main a {
+    border: 1px solid #664f97;
+    font-size: 14px;
+  }
+  #skku_wrap .contents .main a img {
+    width: 11px;
+  }
+
+  
 }
 
 /* **************************************** *
@@ -522,6 +546,10 @@
   .display_show_800 {
     display: block;
   }
+  #skku_wrap .contents .main .content .box {
+    font-size: 35px;
+  }
+  #skku_wrap .contents .main .content .smal{font-size: 12px;}
   #skku_wrap .contents .main .content .random {
     margin-right: 0;
   }
@@ -550,7 +578,7 @@
   /* 컨텐츠 영역 */
   #skku_wrap .contents .main {
     position: relative;
-    height: 100vh;
+    height: 100dvh;
   }
 
   #skku_wrap .contents .main .main_img_wrap .img_wrap {
@@ -563,15 +591,15 @@
   #skku_wrap .contents .main .content {
     font-size: 35px; /*font-size: 50px;*/
   }
-  #skku_wrap .contents .main .content .box {
+  #skku_wrap .contents .main .content .box{
+    font-size: 28px; /*font-size: 50px;*/
   }
+  #skku_wrap .contents .main .content .smal{font-size: 16px;}
   #skku_wrap .contents .main .content .random {
     letter-spacing: -6px;
     font-size: 35px;
   }
-  #skku_wrap .contents .main .content .smal {
-    font-size: 25px;
-  }
+  #skku_wrap .contents .main .content .smal{font-size: 11.2px;}
   #skku_wrap .contents .main .content .smal span {
     display: inline-block;
   }
@@ -589,12 +617,7 @@
   #skku_wrap .contents .o_deps {
     padding: 0;
   }
-  #skku_wrap .contents .main .sm a {
-    padding: 2.5% 3.5%;
-    width: 17%;
-  }
-  #skku_wrap .contents .main .sm a img {
-  }
+ 
   #skku_wrap .contents .t_deps .txt .tm a {
     font-size: 30px;
   }
@@ -605,22 +628,16 @@
   #skku_wrap .contents .h_deps .img {
     margin-top: -65px;
   }
-  #skku_wrap .contents .h_deps .img img {
-  }
+  
   #skku_wrap .contents .main .video {
     height: 350px;
   }
-  #skku_wrap .contents .main .video,
-  #skku_wrap .contents .main .sm {
-    width: 100%;
-    margin: 0 auto;
-    max-width: 600px;
-  }
+ 
   #skku_wrap .contents .a_deps .container .random {
     font-size: 40px;
   }
   #skku_wrap .contents .a_deps .container .box {
-    font-size: 35px;
+    font-size: 36px;
   }
 
   #skku_wrap .contents .a_deps .container table {
@@ -729,7 +746,13 @@
 @media screen and (max-width: 600px) {
   #skku_wrap .contents .main .content {
     font-size: 30px; /*font-size:35px;*/
+    left: 5%;
+    bottom: -1%;
   }
+  #skku_wrap .contents .main .content .box {
+    font-size: 30px;
+  }
+  #skku_wrap .contents .main .content .smal{font-size: 12px;}
   #skku_wrap .contents .main .content .random {
     letter-spacing: -4px;
     font-size: 32px;
@@ -742,15 +765,7 @@
   }
   #skku_wrap .contents .main .main_img_wrap .img_wrap {
     padding-bottom: 70%;
-  }
-  #skku_wrap .contents .main .sm a {
-    font-size: 14px;
-    padding: 3% 4%;
-  }
-  #skku_wrap .contents .main .sm a img {
-    width: 10px;
-    vertical-align: -1px;
-  }
+  }  
   #skku_wrap .contents .o_deps .txt .title a,
   #skku_wrap .contents .t_deps .txt .title a,
   #skku_wrap .contents .h_deps .title a {
@@ -778,13 +793,12 @@
     height: 250px;
   }
   #skku_wrap .contents .main .video,
-  #skku_wrap .contents .main .sm {
-    width: 100%;
-    margin: 0 auto;
-    max-width: 400px;
+  #skku_wrap .contents .main a {
+    border: 1px solid #664f97;
+    font-size: 14px;
   }
-  #skku_wrap .contents .main .sm a {
-    width: 25%;
+  #skku_wrap .contents .main a img {
+    width: 11px;
   }
   #skku_wrap .swiper-slide a .txt {
     font-size: 16px;
@@ -855,14 +869,24 @@
   #skku_wrap .contents .a_deps .container ul.tabs {
     max-width: 400px;
   }
+  
 }
 
 /* **************************************** *
  * 540px
  * **************************************** */
 @media screen and (max-width: 540px) {
+  #skku_wrap .contents .main a {
+    border: 0.8px solid #664f97;
+    font-size: 15px;
+  }
+  #skku_wrap .contents .main a img {
+    width: 12px;
+  }
   #skku_wrap .contents .main .content {
     padding-top: 100px;
+    left: 5%;
+    bottom: -1%;
   }
 
   /* #skku_wrap .contents .main {height: 50vh;padding-top: 30%;} */
@@ -875,7 +899,13 @@
   #skku_wrap .contents .main .content {
     margin: 0;
     padding-top: 0;
+    left: 5%;
+    bottom: -1%;
   }
+  #skku_wrap .contents .main .content .box {
+    font-size: 25px;
+  }
+  #skku_wrap .contents .main .content .smal{font-size: 10px;line-height: 2;}
   #skku_wrap .contents .main .main_img_wrap .img_wrap img {
     max-width: 50%;
   }
@@ -884,9 +914,12 @@
   #skku_wrap .contents .main .content .random {
     font-size: 33px;
   }
-  #skku_wrap .contents .main .sm a {
-    font-size: 12px;
-    padding: 3.5% 4.5%;
+  #skku_wrap .contents .main a {
+    border: 0.7px solid #664f97;
+    font-size: 11px;
+  }
+  #skku_wrap .contents .main a img {
+    width: 8px;
   }
   #skku_wrap .contents .o_deps .txt .title a,
   #skku_wrap .contents .t_deps .txt .title a,
@@ -940,8 +973,10 @@
   #skku_wrap .contents .main .content {
     margin: 0;
     font-size: 25px;
+    left: 5%;
+    bottom: -1%;
   }
-  #skku_wrap .contents .main .content .random {
+  #skku_wrap .contents .main .content .random {    
     letter-spacing: -3px;
     font-size: 26px;
   }
@@ -951,12 +986,9 @@
   #skku_wrap .contents .main .video {
     height: 200px;
   }
-  #skku_wrap .contents .main .video,
-  #skku_wrap .contents .main .sm {
-    width: 100%;
-    margin: 0 auto;
-    max-width: 300px;
-  }
+  
+  
+  
   /* 화살표 영역 */
   #skku_wrap .contents .main .arrow_box .scroll-arrow {
     width: 7px;
@@ -1041,15 +1073,26 @@
  * 375px
  * **************************************** */
 @media screen and (max-width: 375px) {
+  #skku_wrap .contents .main a {
+    border: 0.5px solid #664f97;
+    font-size: 10px;
+  }
+  #skku_wrap .contents .main a img {
+    width: 8px;
+  }
   #skku_wrap .contents .h_deps .img img {
     width: 280px;
   }
+  #skku_wrap .contents .main .content .box {
+    font-size: 20px;
+  }
+  #skku_wrap .contents .main .content .smal{font-size: 8px;line-height: 2;}
 }
 
 /* **************************************** *
  * 360px
  * **************************************** */
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 360px) {  
   #skku_wrap .contents .main .video {
   }
   #skku_wrap .contents .o_deps .txt .title a,
@@ -1098,12 +1141,7 @@
   #skku_wrap .contents .h_deps .img img {
     width: 240px;
   }
-  #skku_wrap .contents .main .sm a {
-    font-size: 12px;
-  }
-  #skku_wrap .contents .main .sm a img {
-    width: 12px;
-  }
+  
   #skku_wrap .contents .main .content .random {
     font-size: 21px;
     letter-spacing: -2.5px;
@@ -1126,5 +1164,16 @@
   }
   #skku_wrap .contents .a_deps .container td {
     width: 60%;
+  }
+}
+
+
+/* 2024 Main Img */
+@media (orientation: landscape) {
+  #skku_wrap .contents .main .main_area {
+    width: 90vw;
+    height: calc(90vw * 25 / 16);
+    max-height: 90vh;
+    max-width: calc(90vh * 16 / 25);
   }
 }
