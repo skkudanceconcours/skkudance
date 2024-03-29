@@ -222,7 +222,7 @@ background-size: cover;width:100%;height:100vh;display: table;} */
 /* #skku_wrap .contents .main .main_area{display: table-cell;width: 100%;height: 100%;vertical-align: middle;text-align: center;} */
 #skku_wrap .contents .main .main_area{position:absolute; display: table-cell; width: calc(100vh * 16 / 25);height: 100vh; max-width: 100vw; max-height: calc(100vw * 25/16); vertical-align: middle;text-align: center;}
 #skku_wrap .contents .main .main_area img {object-fit: cover;}
-#skku_wrap .contents .main .content{position: absolute; left: 20%;bottom: 3%; color:white;font-size: 100px; line-height: 1.3;padding: 50px 0;letter-spacing: -1px; font-family: "Noto Sans KR", sans-serif; display: flex; flex-direction: column; align-items: flex-start; justify-content: flex-start;}
+#skku_wrap .contents .main .content{position: absolute; z-index: 10; left: 20%;bottom: 3%; color:white;font-size: 100px; line-height: 1.3;padding: 50px 0;letter-spacing: -1px; font-family: "Noto Sans KR", sans-serif; display: flex; flex-direction: column; align-items: flex-start; justify-content: flex-start;}
 #skku_wrap .contents .main .content .title{font-weight: 100;display: inline-block;}
 #skku_wrap .contents .main .content .random{display: inline-block;letter-spacing: -7px;font-weight: 600!important;}
 #skku_wrap .contents .main .content .box{display: inline-block; font-weight: 200;line-height: 1.1; font-size: 40pt;}
