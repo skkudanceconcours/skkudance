@@ -1172,8 +1172,8 @@
 @media (orientation: landscape) {
   #skku_wrap .contents .main .main_area {
     width: 90vw;
+    max-width: calc(90vh * 16 / 25);
     height: calc(90vw * 25 / 16);
     max-height: 90vh;
-    max-width: calc(90vh * 16 / 25);
   }
 }
