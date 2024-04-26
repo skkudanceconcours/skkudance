@@ -1,0 +1,159 @@
+.pc_hidden {display: none;}
+
+/* **************************************** *
+ * 1920px
+ * **************************************** */ 
+@media screen and (max-width: 1920px) {
+
+}   
+        
+
+        
+/* **************************************** *
+ * 1680px
+ * **************************************** */ 
+@media screen and (max-width: 1680px) {
+
+            
+}
+
+
+/* **************************************** *
+ * 1366px
+ * **************************************** */         
+@media screen and (max-width: 1366px) {
+    .detail_contents .dec_box .dec_p {font-size: 16px;}
+}
+        
+        
+
+    
+
+    
+/* **************************************** *
+ * 1280px
+ * **************************************** */ 
+@media screen and (max-width: 1280px) {
+.contents{max-width:90%;margin: 0 auto;}
+.contents .title{font-size: 16px;}
+.contents .big_title{font-size: 35px;}
+.contents .big_title span{font-size: 26px;}
+.detail_contents .title_box .title_p{font-size: 35px;}
+.detail_contents .explan_box .title_p,
+.detail_contents .sketch .title_p{font-size: 20px;}
+.detail_contents .explan_box .dec_sub{font-size: 16px;}
+.detail_contents .explan_box .dec_p{font-size: 14px;}
+
+.contents .box_row ul li a .t_box .t_title{font-size: 20px;}
+.contents .box_row ul li a .t_box .t_dec{font-size: 13px;}
+
+}
+        
+        
+
+    
+
+    
+/* **************************************** *
+ * 1024px
+ * **************************************** */     
+@media screen and (max-width: 1024px) {
+    .contents{padding:15% 0;}
+    .contents.contemporary .box_row ul li,
+    .contents.dance .box_row ul li,
+    .contents.ballet .box_row ul li {width: 48.5%;}  
+
+    .contents.contemporary .box_row ul li:nth-child(4n){margin-right: 2%;}
+    .contents.dance .box_row ul li:nth-child(4n){margin-right: 2%;}
+    .contents.ballet .box_row ul li:nth-child(4n){margin-right: 2%;}
+    .contents.contemporary .box_row ul li:nth-child(2n){margin-right: 0%;}
+    .contents.dance .box_row ul li:nth-child(2n){margin-right: 0%;}
+    .contents.ballet .box_row ul li:nth-child(2n){margin-right: 0%;}
+    .detail_contents .sketch ul li  {width: 50%;}   
+    .detail_contents .video span{width: 48.5%;}
+    .detail_contents .video span.first{margin-right: 1.5%;}
+
+}
+        
+
+           
+ 
+
+
+/* **************************************** *
+ * 768px
+ * **************************************** */       
+@media screen and (max-width: 768px) {          
+.display_show_768 {display: block;}
+.display_none_768 {display: none;}
+
+.contents .title{font-size: 20px;}
+.contents .big_title{font-size: 40px;}
+.contents .big_title span{font-size: 32px;}
+.detail_contents .title_box .title_p{font-size: 40px;}
+.detail_contents .explan_box {margin: 7% 0;}
+
+.detail_contents .dec_box .dec_p{font-size: 18px;}
+.detail_contents .explan_box .title_p,
+.detail_contents .sketch .title_p{font-size: 24px;}
+.detail_contents .explan_box .dec_sub{font-size: 20px;}
+.detail_contents .explan_box .dec_p{font-size: 16px;}
+
+.contents .box_row ul li a .t_box .t_title{font-size: 24px;}
+.contents .box_row ul li a .t_box .t_dec{font-size: 16px;}        
+}
+
+/* **************************************** *
+ * 600px
+ * **************************************** */            
+@media screen and (max-width: 600px) {
+.display_show_600 {display: block;}
+.display_none_600 {display: none;}
+
+
+.contents.ballet .box_row ul li{margin-right:1.4%;}
+
+.contents .title{font-size: 15px;}
+.contents .big_title{font-size: 30px;}
+.contents .big_title span{font-size: 22px;}
+.go_back a{font-size: 13px;}
+.go_back a img{vertical-align: inherit;width: 11px;}
+.detail_contents .title_box .title_p{font-size: 30px;}
+.detail_contents .dec_box .dec_p{font-size: 16px;}
+.detail_contents .explan_box .title_p,
+.detail_contents .sketch .title_p{font-size: 19px;}
+.detail_contents .explan_box .dec_sub{font-size: 17px;}
+.detail_contents .explan_box .dec_p{font-size: 13px;}
+
+.contents .box_row ul li a .t_box .t_title{font-size: 20px;}
+.contents .box_row ul li a .t_box .t_dec{font-size: 13px;}
+
+}
+        
+        
+        
+ 
+        
+/* **************************************** *
+ * 414px
+ * **************************************** */           
+@media screen and (max-width: 414px) {
+.contents .title{font-size: 12px;}
+.contents .big_title{font-size: 25px;}
+.contents .big_title span{font-size: 17px;}
+.go_back a{font-size: 11px;}
+.go_back a img{width: 10px;}
+.detail_contents .title_box .title_p{font-size: 25px;}
+.detail_contents .dec_box .dec_p{font-size: 12px;}
+.detail_contents .explan_box .title_p,
+.detail_contents .sketch .title_p{font-size: 16px;}
+.detail_contents .explan_box .dec_sub{font-size: 14px;}
+.detail_contents .explan_box .dec_p{font-size: 11px;}
+
+.contents .box_row ul li a .t_box .t_title{font-size: 18px;}
+.contents .box_row ul li a .t_box .t_dec{font-size: 11px;}
+
+}
+
+        
+        

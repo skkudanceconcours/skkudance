@@ -112,12 +112,12 @@
                                 </div>                               
                                 <div class="sub_06">
                                     <i></i>
-                                    <a class="over" href="/performance_main.html">2023 졸업발표회</a>
+                                    <a class="over" href="/archive/2023_graduate/about/Congratulatory.html">2023 졸업발표회</a>
                                     <ul class="menu_sub_06">
                                         <i></i>
-                                        <li class="sub"><a href="/about/Congratulatory.html">축사 <small>Congratulatory Message</small></a></li>
-                                        <li class="sub"><a href="/about/Greetings.html">인사말 <small>Greetings</small></a></li>
-                                        <li class="sub"><a href="/about/Faculty.html">지도교수 <small>Faculty Members</small></a></li>
+                                        <li class="sub"><a href="/archive/2023_graduate/about/Congratulatory.html">축사 <small>Congratulatory Message</small></a></li>
+                                        <li class="sub"><a href="/archive/2023_graduate/about/Greetings.html">인사말 <small>Greetings</small></a></li>
+                                        <li class="sub"><a href="/archive/2023_graduate/about/Faculty.html">지도교수 <small>Faculty Members</small></a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -259,7 +259,7 @@
                                             </ul>
                                         </li>  
                                         <li class="sub">
-                                            <a href="/performance_main.html">2023 졸업발표회
+                                            <a href="/archive/2023_graduate/about/Congratulatory.html">2023 졸업발표회
                                                 <span>
                                                     <a href="#" >
                                                         <img src="/img/gnb_arrow.png" alt="서브메뉴오픈" width="12">
@@ -267,9 +267,9 @@
                                                 </span>
                                             </a>                                
                                             <ul class="cont_m cont_m_01">
-                                                <li class="sub"><a href="/about/Congratulatory.html">축사 <small>Congratulatory Message</small></a></li>
-                                                <li class="sub"><a href="/about/Greetings.html">인사말 <small>Greetings</small></a></li>
-                                                <li class="sub"><a href="/about/Faculty.html">지도교수 <small>Faculty Members</small></a></li>
+                                                <li class="sub"><a href="/archive/2023_graduate/about/Congratulatory.html">축사 <small>Congratulatory Message</small></a></li>
+                                                <li class="sub"><a href="/archive/2023_graduate/about/Greetings.html">인사말 <small>Greetings</small></a></li>
+                                                <li class="sub"><a href="/archive/2023_graduate/about/Faculty.html">지도교수 <small>Faculty Members</small></a></li>
                                             </ul>
                                         </li>  
                                     </ul>
