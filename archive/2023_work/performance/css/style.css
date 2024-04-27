@@ -70,7 +70,7 @@ a:active { text-decoration:none; }
 .contents .big_title span{display: block;font-size: 32px;font-weight: 500; color: #c7c7c7;}
 
 
-/* 컨텐츠 영역 - 컨템포러리 */
+/* 컨텐츠 영역 - 공통 */
 .contents .contem_inner{}
 .contents .box_row {margin-top: 6%;}
 .contents .box_row ul{overflow: hidden;}

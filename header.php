@@ -42,9 +42,9 @@
                                 <!-- 임시주석 -->
                                  <div class="sub">
                                     <i></i>
-                                    <a href="/performance/ballet.html">발레 <small>Ballet</small></a>
                                     <a href="/performance/contemporary.html">컨템포러리 댄스 <small>Contemporary Dance</small></a>
                                     <a href="/performance/korean_dance.html">한국무용 <small>Korean Dance</small></a>
+                                    <a href="/performance/ballet.html">발레 <small>Ballet</small></a>
                                 </div> 
                             </div>  
                         </li>
@@ -168,9 +168,9 @@
                                 <li class="first"><a href="/performance_main.html">PERFORMANCE</a>     
                                     <!-- 임시주석 -->
                                      <ul class="cont_m cont_m_01">
-                                         <li class="sub"><a href="/performance/ballet.html" class="a_box">발레 <small>Ballet</small></a></li>
                                          <li class="sub"><a href="/performance/contemporary.html" class="a_box">컨템포러리 댄스 <small>Contemporary Dance</small></a></li>
                                          <li class="sub"><a href="/performance/korean_dance.html" class="a_box">한국무용 <small>Korean Dance</small></a></li>
+                                         <li class="sub"><a href="/performance/ballet.html" class="a_box">발레 <small>Ballet</small></a></li>
                                     </ul> 
                                 </li>
                                 <li class="first"><a href="#">ARCHIVE</a>
@@ -292,5 +292,5 @@
                         </div>
                     </div>
                 </div>
-                <div class="title">제 <b>32</b>회 성균관대학교 무용학과<br> 졸업작품 발표회<!-- <div class="smal">2021. 11. 18 목요일 오후 7시 ~ 일요일 오후 7시  <span>(48시간 스트리밍)</span></div> --></div>        
+                <div class="title">제 <b>34</b>회 성균관대학교 무용학과<br> 작품발표회<!-- <div class="smal">2021. 11. 18 목요일 오후 7시 ~ 일요일 오후 7시  <span>(48시간 스트리밍)</span></div> --></div>        
                 </header>
