@@ -1,0 +1,24 @@
+<div class="content">                       
+                        <div class="box">
+                            <span class="title">제</span>
+                            <span class="random box">                                   
+                                <span class="nbr ltr">0</span>
+                                <span class="nbr ltr">0</span>
+                            </span> 
+                            <span class="title">
+                                회
+                            </span>
+                            <p>성균관대학교</p>
+                            <p>무용학과 작품발표회</p>
+                            <p>2024.05.15 - 05.19</p>
+                        </div>                                                    
+                        <div class="smal">
+                            성균관대학교 600주년 기념관 새천년홀
+                        </div>            
+                        <!-- <div class="sm"> -->
+                        <a href="/performance_main.html">
+                            <span>작품 더보기</span>
+                            <img src="/img/more_img_p.png" alt="더보기아이콘">
+                        </a>
+                        <!-- </div>                 -->
+                    </div>
