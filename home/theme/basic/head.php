@@ -205,9 +205,9 @@ include_once(G5_LIB_PATH.'/popular.lib.php');
                                 <!-- 임시주석 -->
                                 <div class="sub">
                                     <i></i>
+                                    <a href="/performance/contemporary.html">컨템포러리 댄스 <small>Contemporary Dance</small></a>
                                     <a href="/performance/korean_dance.html">한국무용 <small>Korean Dance</small></a>
                                     <a href="/performance/ballet.html">발레 <small>Ballet</small></a>
-                                    <a href="/performance/contemporary.html">컨템포러리 댄스 <small>Contemporary Dance</small></a>
                                 </div>
                             </div>   
                         </li>
@@ -340,9 +340,9 @@ include_once(G5_LIB_PATH.'/popular.lib.php');
                                 <li class="first"><a href="/performance_main.html">PERFORMANCE</a>     
                                     <!-- 임시주석 -->
                                      <ul class="cont_m cont_m_01">
+                                         <li class="sub"><a href="/performance/contemporary.html" class="a_box">컨템포러리 댄스 <small>Contemporary Dance</small></a></li>
                                          <li class="sub"><a href="/performance/korean_dance.html" class="a_box">한국무용 <small>Korean Dance</small></a></li>
                                          <li class="sub"><a href="/performance/ballet.html" class="a_box">발레 <small>Ballet</small></a></li>
-                                         <li class="sub"><a href="/performance/contemporary.html" class="a_box">컨템포러리 댄스 <small>Contemporary Dance</small></a></li>
                                     </ul> 
                                 </li>
                                 <li class="first"><a href="#">ARCHIVE</a>

@@ -255,10 +255,11 @@ background-size: cover;width:100%;height:100vh;display: table;} */
 #skku_wrap .contents .main .content .box{font-family: "Noto Sans KR"; display: inline-block; font-weight: 200;line-height: 1.1; font-size: 40pt;}
 #skku_wrap .contents .main .content .box p{font-family: "Noto Sans KR"; font-weight: 400;}
 #skku_wrap .contents .main .content .box p:last-child{letter-spacing: 0.2em;}
-#skku_wrap .contents .main .content .box span{font-family: "Noto Sans KR"; font-weight: 600;}
+#skku_wrap .contents .main .content .box span{font-family: "Noto Sans KR";}
 /* #skku_wrap .contents .main .content .box2{display: inline-block;font-weight: 100;} */
 #skku_wrap .contents .main .content .smal{font-size: 20pt;line-height: 1.3;}
-#skku_wrap .contents .main .content .regular{font-size: 50pt;}
+#skku_wrap .contents .main .content .regular{font-size: 50pt; }
+#skku_wrap .contents .main .content .box .regular{font-weight: 500;}
 /* #skku_wrap .contents .main .content .smal > span{font-weight: 500;display:inline-block; margin-right: 20px;} */
 #skku_wrap .contents .main a{display: flex; justify-content: space-around; align-items: center; color: #664f97;font-size: 16px; border: 1px solid #664f97;border-radius: 50px; padding: 2% 2.5%; margin-top: 5%; font-weight: 300;}
 #skku_wrap .contents .main a span {margin-right: 8px;}
