@@ -112,7 +112,7 @@
                                 </div>                               
                                 <div class="sub_06">
                                     <i></i>
-                                    <a class="over" href="/archive/2023_graduate/about/Congratulatory.html">2023 졸업발표회</a>
+                                    <a class="over" href="/archive/2023_graduate/index.html">2023 졸업발표회</a>
                                     <ul class="menu_sub_06">
                                         <i></i>
                                         <li class="sub"><a href="/archive/2023_graduate/about/Congratulatory.html">축사 <small>Congratulatory Message</small></a></li>
@@ -269,7 +269,7 @@
                                             </ul>
                                         </li>  
                                         <li class="sub">
-                                            <a href="/archive/2023_graduate/about/Congratulatory.html">2023 졸업발표회
+                                            <a href="/archive/2023_graduate/index.html">2023 졸업발표회
                                                 <span>
                                                     <a href="#" >
                                                         <img src="/img/gnb_arrow.png" alt="서브메뉴오픈" width="12">

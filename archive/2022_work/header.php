@@ -30,7 +30,7 @@
                             <div class="menu_content cont_02">
                                 <div class="sub">
                                     <i></i>
-                                    <!-- <a href="/about/Congratulatory.html">축사 <small>Congratulatory Message</small></a> -->
+                                    <a href="/about/Congratulatory.html">축사 <small>Congratulatory Message</small></a>
                                     <a href="/about/Greetings.html">인사말 <small>Greetings</small></a>
                                     <a href="/about/Faculty.html">지도교수 <small>Faculty Members</small></a>
                                 </div>
@@ -42,9 +42,9 @@
                                 <!-- 임시주석 -->
                                  <div class="sub">
                                     <i></i>
+                                    <a href="/performance/contemporary.html">컨템포러리 댄스 <small>Contemporary Dance</small></a>
                                     <a href="/performance/korean_dance.html">한국무용 <small>Korean Dance</small></a>
                                     <a href="/performance/ballet.html">발레 <small>Ballet</small></a>
-                                    <a href="/performance/contemporary.html">컨템포러리 댄스 <small>Contemporary Dance</small></a>
                                 </div> 
                             </div>  
                         </li>
@@ -109,11 +109,21 @@
                                         <li class="sub"><a href="/archive/2023_work/about/Greetings.html">인사말 <small>Greetings</small></a></li>
                                         <li class="sub"><a href="/archive/2023_work/about/Faculty.html">지도교수 <small>Faculty Members</small></a></li>
                                     </ul>
-                                </div>
+                                </div>                               
                                 <div class="sub_06">
                                     <i></i>
-                                    <a class="over" href="/performance_main.html">2023 졸업발표회</a>
+                                    <a class="over" href="/archive/2023_graduate/index.html">2023 졸업발표회</a>
                                     <ul class="menu_sub_06">
+                                        <i></i>
+                                        <li class="sub"><a href="/archive/2023_graduate/about/Congratulatory.html">축사 <small>Congratulatory Message</small></a></li>
+                                        <li class="sub"><a href="/archive/2023_graduate/about/Greetings.html">인사말 <small>Greetings</small></a></li>
+                                        <li class="sub"><a href="/archive/2023_graduate/about/Faculty.html">지도교수 <small>Faculty Members</small></a></li>
+                                    </ul>
+                                </div>
+                                <div class="sub_07">
+                                    <i></i>
+                                    <a class="over" href="/performance_main.html">2024 작품발표회</a>
+                                    <ul class="menu_sub_07">
                                         <i></i>
                                         <li class="sub"><a href="/about/Congratulatory.html">축사 <small>Congratulatory Message</small></a></li>
                                         <li class="sub"><a href="/about/Greetings.html">인사말 <small>Greetings</small></a></li>
@@ -160,7 +170,7 @@
                                 </li>
                                 <li class="first"><a href="/about/Greetings.html">ABOUT</a>
                                     <ul class="cont_m cont_m_02">
-                                        <!-- <li class="sub"><a href="/about/Congratulatory.html">축사 <small>Congratulatory Message</small></a></li> -->
+                                        <li class="sub"><a href="/about/Congratulatory.html">축사 <small>Congratulatory Message</small></a></li>
                                         <li class="sub"><a href="/about/Greetings.html">인사말 <small>Greetings</small></a></li>
                                         <li class="sub"><a href="/about/Faculty.html">지도교수 <small>Faculty Members</small></a></li>
                                     </ul>
@@ -168,9 +178,9 @@
                                 <li class="first"><a href="/performance_main.html">PERFORMANCE</a>     
                                     <!-- 임시주석 -->
                                      <ul class="cont_m cont_m_01">
+                                         <li class="sub"><a href="/performance/contemporary.html" class="a_box">컨템포러리 댄스 <small>Contemporary Dance</small></a></li>
                                          <li class="sub"><a href="/performance/korean_dance.html" class="a_box">한국무용 <small>Korean Dance</small></a></li>
                                          <li class="sub"><a href="/performance/ballet.html" class="a_box">발레 <small>Ballet</small></a></li>
-                                         <li class="sub"><a href="/performance/contemporary.html" class="a_box">컨템포러리 댄스 <small>Contemporary Dance</small></a></li>
                                     </ul> 
                                 </li>
                                 <li class="first"><a href="#">ARCHIVE</a>
@@ -257,9 +267,23 @@
                                                 <li class="sub"><a href="/archive/2023_work/about/Greetings.html">인사말 <small>Greetings</small></a></li>
                                                 <li class="sub"><a href="/archive/2023_work/about/Faculty.html">지도교수 <small>Faculty Members</small></a></li>
                                             </ul>
-                                        </li>    
+                                        </li>  
                                         <li class="sub">
-                                            <a href="/performance_main.html">2023 졸업발표회
+                                            <a href="/archive/2023_graduate/index.html">2023 졸업발표회
+                                                <span>
+                                                    <a href="#" >
+                                                        <img src="/img/gnb_arrow.png" alt="서브메뉴오픈" width="12">
+                                                    </a>
+                                                </span>
+                                            </a>                                
+                                            <ul class="cont_m cont_m_01">
+                                                <li class="sub"><a href="/archive/2023_graduate/about/Congratulatory.html">축사 <small>Congratulatory Message</small></a></li>
+                                                <li class="sub"><a href="/archive/2023_graduate/about/Greetings.html">인사말 <small>Greetings</small></a></li>
+                                                <li class="sub"><a href="/archive/2023_graduate/about/Faculty.html">지도교수 <small>Faculty Members</small></a></li>
+                                            </ul>
+                                        </li>  
+                                        <li class="sub">
+                                            <a href="/performance_main.html">2024 작품발표회
                                                 <span>
                                                     <a href="#" >
                                                         <img src="/img/gnb_arrow.png" alt="서브메뉴오픈" width="12">
@@ -271,7 +295,7 @@
                                                 <li class="sub"><a href="/about/Greetings.html">인사말 <small>Greetings</small></a></li>
                                                 <li class="sub"><a href="/about/Faculty.html">지도교수 <small>Faculty Members</small></a></li>
                                             </ul>
-                                        </li>                                       
+                                        </li>  
                                     </ul>
                                 </li>
                                 <li class="first">
@@ -292,5 +316,5 @@
                         </div>
                     </div>
                 </div>
-                <div class="title">제 <b>32</b>회 성균관대학교 무용학과<br> 작품 발표회<!-- <div class="smal">2021. 11. 18 목요일 오후 7시 ~ 일요일 오후 7시  <span>(48시간 스트리밍)</span></div> --></div>        
+                <div class="title">제 <b>34</b>회 성균관대학교 무용학과<br> 작품발표회<!-- <div class="smal">2021. 11. 18 목요일 오후 7시 ~ 일요일 오후 7시  <span>(48시간 스트리밍)</span></div> --></div>        
                 </header>

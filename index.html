@@ -25,7 +25,45 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
-   
+    <!-- video와 배경색 같게 -->
+    <script defer>
+        function isColorInRange(expectedColor, givenColor) {
+        const THRESHOLD = 40;
+        for (var i = 0; i < 3; i++) {
+            if (((expectedColor[i] - THRESHOLD) > givenColor[i]) || ((expectedColor[i] + THRESHOLD) < givenColor[i])) {
+                return false;
+            }
+        }
+            return true;
+        }
+
+        function setVideoBgColor(vid, nativeColor) {
+        if (vid) {
+            let vidBg = document.querySelector('.large_bg');
+            if (vidBg) {
+                // draw first pixel of video to a canvas
+                // then get pixel color from that canvas
+                let canvas = document.createElement("canvas");
+                canvas.width = 1;
+                canvas.height = 1;
+                let ctx = canvas.getContext("2d");
+                ctx.drawImage(vid, 0, 0, 1, 1);
+                
+                let p = ctx.getImageData(0, 0, 1, 1).data;
+                //console.log("rgb(" + p[0] + "," + p[1] + "," + p[2] + ")");
+                if (isColorInRange(nativeColor, p)) {        
+                    vidBg.style.backgroundColor = "rgb(" + p[0] + "," + p[1] + "," + p[2] + ")";
+                }
+            }
+        }
+        }
+
+        function setVideoBgColorDelayed(vid, nativeColor) {
+            console.log("실행됨");
+            setVideoBgColor(vid,nativeColor)
+            // setTimeout(setVideoBgColor, 100, vid, nativeColor);
+        }
+    </script>
 </head>
 <body id="main">
     <div id="skku_wrap">
@@ -366,7 +404,7 @@
                         <div class="main_img_wrap">
                             <!-- <div class="img_wrap"> -->
                                 <!-- <img src="/img/showcase_img02.png"alt="메인이미지"> -->
-                                <video muted autoplay loop playsinline>
+                                <video muted autoplay loop playsinline onplay="setVideoBgColorDelayed(this,[214,169,216])">
                                  <!-- <video muted autoplay loop playsinline poster="/img/main_poster.jpg"> -->
                                     <source src="/video/main_video.mp4" type="video/mp4">                                    
                                 </video> 
@@ -411,7 +449,7 @@
                 <div class="a_deps">                    
                     <div class="container">
                         <div class="title ani-item ani-inside">                       
-                            <div class="box"><!--<span>제</span> <span class="random"> 1</span><span>회</span> 성균관대학교 예술대학 무용학과--> <br class="pc_hidden display_show_800">순서 미정</div>
+                            <div class="box"><!--<span>제</span> <span class="random"> 1</span><span>회</span> 성균관대학교 예술대학 무용학과--> <br class="pc_hidden display_show_800">작품발표회 순서</div>
                         </div>
                         <div class="sub ani-item ani-inside">PERFORMANCE PROGRAM</div>
                         <div class="">
@@ -438,7 +476,7 @@
                                     <td>
                                         <div>박(拍), 동(同)</div>
                                         <div>심월(心月)</div>
-                                        <div>목어(木魚)</div>
+                                        <div>목어(目魚)</div>
                                         <div>探, 하다</div>                                                  
                                     </td>
                                     <td class="short_btn"><a href="/performance/korean_dance.html">작품 확인하기</a></td>
