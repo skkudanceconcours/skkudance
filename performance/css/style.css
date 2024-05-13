@@ -74,7 +74,7 @@ a:active { text-decoration:none; }
 .contents .contem_inner{}
 .contents .box_row {margin-top: 6%;}
 .contents .box_row ul{display: flex; justify-content: flex-start; align-items: center; flex-wrap: wrap; overflow: hidden;}
-.contents .box_row ul li{width:50%;aspect-ratio: 7/5; position: relative;/*margin-right: 1%;margin-bottom: 1%;border: 1px solid #e7e7e7;*/}
+.contents .box_row ul li{width:50%; position: relative;/*margin-right: 1%;margin-bottom: 1%;border: 1px solid #e7e7e7;*/}
 .contents .box_row ul li.grid3 {width: 33.3%;}
 .contents .box_row ul li:nth-child(4n){margin-right: 0%;}
 .contents .box_row ul li a {background: #000; display: block;width: 100%; position: relative;}
