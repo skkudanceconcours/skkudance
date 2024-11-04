@@ -285,12 +285,12 @@ include_once(G5_LIB_PATH.'/popular.lib.php');
                                 </div>                             
                                 <div class="sub_07">
                                     <i></i>
-                                    <a class="over" href="/performance_main.html">2024 작품발표회</a>
+                                    <a class="over" href="/archive/2024_work/index.html">2024 작품발표회</a>
                                     <ul class="menu_sub_07">
                                         <i></i>
-                                        <li class="sub"><a href="/about/Congratulatory.html">축사 <small>Congratulatory Message</small></a></li>
-                                        <li class="sub"><a href="/about/Greetings.html">인사말 <small>Greetings</small></a></li>
-                                        <li class="sub"><a href="/about/Faculty.html">지도교수 <small>Faculty Members</small></a></li>
+                                        <li class="sub"><a href="/archive/2024_work/about/Congratulatory.html">축사 <small>Congratulatory Message</small></a></li>
+                                        <li class="sub"><a href="/archive/2024_work/about/Greetings.html">인사말 <small>Greetings</small></a></li>
+                                        <li class="sub"><a href="/archive/2024_work/about/Faculty.html">지도교수 <small>Faculty Members</small></a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -445,7 +445,7 @@ include_once(G5_LIB_PATH.'/popular.lib.php');
                                             </ul>
                                         </li>    
                                         <li class="sub">
-                                            <a href="/performance_main.html">2024 작품발표회
+                                            <a href="/archive/2024_work/index.html">2024 작품발표회
                                                 <span>
                                                     <a href="#" >
                                                         <img src="/img/gnb_arrow.png" alt="서브메뉴오픈" width="12">
@@ -453,9 +453,9 @@ include_once(G5_LIB_PATH.'/popular.lib.php');
                                                 </span>
                                             </a>                                
                                             <ul class="cont_m cont_m_01">
-                                                <li class="sub"><a href="/about/Congratulatory.html">축사 <small>Congratulatory Message</small></a></li>
-                                                <li class="sub"><a href="/about/Greetings.html">인사말 <small>Greetings</small></a></li>
-                                                <li class="sub"><a href="/about/Faculty.html">지도교수 <small>Faculty Members</small></a></li>
+                                                <li class="sub"><a href="/archive/2024_work/about/Congratulatory.html">축사 <small>Congratulatory Message</small></a></li>
+                                                <li class="sub"><a href="/archive/2024_work/about/Greetings.html">인사말 <small>Greetings</small></a></li>
+                                                <li class="sub"><a href="/archive/2024_work/about/Faculty.html">지도교수 <small>Faculty Members</small></a></li>
                                             </ul>
                                         </li>                                
                                     </ul>
