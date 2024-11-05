@@ -265,7 +265,8 @@ a:active {
 #skku_wrap .header .menu_content .sub_04,
 #skku_wrap .header .menu_content .sub_05,
 #skku_wrap .header .menu_content .sub_06,
-#skku_wrap .header .menu_content .sub_07 {
+#skku_wrap .header .menu_content .sub_07,
+#skku_wrap .header .menu_content .sub_08 {
   background-color: #f9f9f9;
   padding: 15px 8px;
 }
@@ -276,7 +277,8 @@ a:active {
 #skku_wrap .header .menu_content .sub_04 a,
 #skku_wrap .header .menu_content .sub_05 a,
 #skku_wrap .header .menu_content .sub_06 a,
-#skku_wrap .header .menu_content .sub_07 a {
+#skku_wrap .header .menu_content .sub_07 a,
+#skku_wrap .header .menu_content .sub_08 a {
   display: inline-block;
 }
 #skku_wrap .header .menu_content .sub i,
@@ -286,7 +288,8 @@ a:active {
 #skku_wrap .header .menu_content .sub_04 i,
 #skku_wrap .header .menu_content .sub_05 i,
 #skku_wrap .header .menu_content .sub_06 i,
-#skku_wrap .header .menu_content .sub_07 i {
+#skku_wrap .header .menu_content .sub_07 i,
+#skku_wrap .header .menu_content .sub_08 i {
   display: block;
   width: 1px;
   height: 23px;
@@ -689,6 +692,53 @@ a:active {
   padding: 0 5px 15px;
 }
 
+#skku_wrap .header .menu ul.menu_sub_08 {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 551px 0 0 151px;
+  min-width: 150px;
+}
+#skku_wrap .header .menu ul.menu_sub_08 > i {
+  display: block;
+  width: 27px;
+  height: 1px;
+  position: absolute;
+  background: #cacaca;
+  top: 32px;
+  z-index: 5;
+  left: -17px;
+}
+#skku_wrap .header .menu ul.menu_sub_08 .sub {
+  background-color: #f9f9f9;
+  padding: 15px 5px;
+}
+#skku_wrap .header .menu ul.menu_sub_08 a {
+  display: block;
+}
+#skku_wrap .header .menu ul.menu_sub_08 a:hover {
+  color: #000;
+}
+#skku_wrap .header .menu ul.menu_sub_08 > li {
+  background-color: #f9f9f9;
+  padding: 0 8px;
+  width: 150px;
+}
+#skku_wrap .header .menu ul.menu_sub_08 > li:nth-child(1) {
+  padding: 18px 5px 0;
+}
+#skku_wrap .header .menu ul.menu_sub_08 > li:nth-child(2) {
+  padding: 13px 5px 0px;
+}
+#skku_wrap .header .menu ul.menu_sub_08 > li:nth-child(3) {
+  padding: 0 5px 3px;
+}
+#skku_wrap .header .menu ul.menu_sub_08 > li:nth-child(4) {
+  padding: 0 5px 15px;
+}
+
+
 #skku_wrap .header .hover_menu.only_02 {
   margin-right: 20px;
   margin-left: 20px;
@@ -739,6 +789,12 @@ a:active {
   left: 0;
 }
 #skku_wrap .header .hover_menu:hover .sub_07:hover .menu_sub_07 {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#skku_wrap .header .hover_menu:hover .sub_08:hover .menu_sub_08 {
   display: block;
   position: absolute;
   top: 0;
