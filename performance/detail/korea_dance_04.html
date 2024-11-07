@@ -2,7 +2,7 @@
 <link rel="stylesheet" href="/performance/css/style.css" />
 <link rel="stylesheet" href="/performance/css/media.css" />
 <link rel="stylesheet" href="/performance/css/swipebox.css" />
-<div class="contents contemporary">
+<div class="contents dance">
   <div class="go_back">
     <a href="/performance/korean_dance.html" class="btn"
       >작품목록<img src="/img/more_img.png" alt="더보기아이콘"
@@ -14,36 +14,34 @@
   </div>
   <div class="detail_contents">
     <div class="title_box">
-      <p class="title_p">探 하다</p>
+      <p class="title_p">강선영류 태평무</p>
     </div>
     <div class="explan_box">
       <p class="title_p">작품내용</p>
-      <p class="dec_p" style="word-break: keep-all">
-        "探(찾을 탐) 하다"는 야망을 새로운 시선에서 바라보며<br/>
-        그것을 향해 망설이지 않고 좇아가며 나아가는 우리의 모습을 담아내고자 한 작품이다.
+      <p class="dec_p">
+        국가무형문화재 제92호 &lt;태평무&gt;는 나라의 풍년과 태평성대를 축원하는
+        뜻을 지닌 춤으로, <br />
+        왕십리 도당굿 특유의 무속장단을 바탕으로 낙궁, 터벌림, 섭채, 올림채,
+        도살풀이, 자진도살풀이 등으로 구성된다. <br />
+        의젓하면서도 경쾌한 발짓춤과 우아하고 섬세한 손놀림 동작은 우리
+        민속춤이<br />
+        지닌 정. 중. 동의 흥과 멋을 지니고 있으며, 특히 가볍고도 절도
+        있게몰아치는 발 디딤새가 돋보이는 춤이다<br />
       </p>
     </div>
     <div class="dec_box">
-      <div class="dec_wrap">
-        <!-- <ul>
-					<li>지도교수 |</li>
-					<li>김옥순, 정혁준</li>
-				</ul>
-				<ul>
-					<li>안무 |</li>
-					<li>국수호</li>
-				</ul> -->
-        <ul>
-          <li>음악 |</li>
-          <li>리반 - 작곡</li>
-        </ul>
-        <ul>
-          <li>출연 |</li>
-          <li>
-            김지후, 김민지, 김아림, 문지윤, 박수현, 이승아, 이연지, 임채영, 조안지, 정혜윤, 한별
-          </li>
-        </ul>
-      </div>
+      <p class="dec_p">
+        <!-- 안무 | 한영숙 <br /> -->
+        음악 | 경기 무속장단을 기반으로 한 태평무의 장단中 느린 터벌림-터벌림
+        몰이-올림채-도살풀이-잦은 도살풀이<br />
+        출연 | 이재연
+      </p>
+    </div>
+
+    <div class="video">
+      <span
+        ><img src="/performance/img/korea_dance_4.jpg" class="증명사진" />
+      </span>
     </div>
 
     <!-- <div class="container sketch">
@@ -52,77 +50,63 @@
         <div id="try"></div>
         <ul id="box-container">
           <li class="box">
-            <a
-              href="/performance/img/kd_01_sketch01.jpg"
-              class="swipebox"
-              rel="gallery"
-            >
-              <img src="/performance/img/kd_01_sketch01_thum.jpg" alt="image" />
+            <a href="../img/kd_01_sketch01.jpg" class="swipebox" rel="gallery">
+              <img src="../img/kd_01_sketch01_thum.jpg" alt="image" />
             </a>
           </li>
           <li class="box">
-            <a
-              href="/performance/img/kd_01_sketch02.jpg"
-              class="swipebox"
-              rel="gallery"
-            >
-              <img src="/performance/img/kd_01_sketch02_thum.jpg" alt="image" />
+            <a href="../img/kd_01_sketch02.jpg" class="swipebox" rel="gallery">
+              <img src="../img/kd_01_sketch02_thum.jpg" alt="image" />
             </a>
           </li>
           <li class="box">
-            <a
-              href="/performance/img/kd_01_sketch03.jpg"
-              class="swipebox"
-              rel="gallery"
-            >
-              <img src="/performance/img/kd_01_sketch03_thum.jpg" alt="image" />
+            <a href="../img/kd_01_sketch03.jpg" class="swipebox" rel="gallery">
+              <img src="../img/kd_01_sketch03_thum.jpg" alt="image" />
             </a>
           </li>
         </ul>
       </div>
-    </div> -->
-    <div class="video" style="margin-top: 5%">
-      <img src="/performance/img/K_4.jpg" class="증명사진" />
     </div>
+  </div> -->
+
+    <!--라이트박스-->
+    <script src="/performance/js/jquery.swipebox.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        /* Basic Gallery */
+        $(".swipebox").swipebox({
+          loopAtEnd: true,
+        });
+
+        /* Dynamic Gallery */
+        $("#gallery").on("click", function (e) {
+          e.preventDefault();
+          $.swipebox([
+            { href: "demo/images/big-1.jpg", title: "My Caption" },
+            { href: "demo/images/big-2.jpg", title: "My Second Caption" },
+          ]);
+        });
+
+        /* Smooth scroll */
+        $(".scroll").on("click", function () {
+          $("html, body").animate(
+            { scrollTop: $($(this).attr("href")).offset().top - 15 },
+            750
+          ); // Go
+          return false;
+        });
+      });
+    </script>
+    <!--페이지별 헤더이미지 로드-->
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $("#skku_wrap .skku_inner").css({
+          background: "url(/performance/img/sub_header_bg_korea_dance.jpg)",
+          "background-repeat": "no-repeat",
+          "background-position": "center center",
+        });
+      });
+    </script>
   </div>
-
-  <!--라이트박스-->
-  <script src="/performance/js/jquery.swipebox.js"></script>
-  <script type="text/javascript">
-    $(document).ready(function () {
-      /* Basic Gallery */
-      $(".swipebox").swipebox({
-        loopAtEnd: true,
-      });
-
-      /* Dynamic Gallery */
-      $("#gallery").on("click", function (e) {
-        e.preventDefault();
-        $.swipebox([
-          { href: "demo/images/big-1.jpg", title: "My Caption" },
-          { href: "demo/images/big-2.jpg", title: "My Second Caption" },
-        ]);
-      });
-
-      /* Smooth scroll */
-      $(".scroll").on("click", function () {
-        $("html, body").animate(
-          { scrollTop: $($(this).attr("href")).offset().top - 15 },
-          750
-        ); // Go
-        return false;
-      });
-    });
-  </script>
-  <!--페이지별 헤더이미지 로드-->
-  <script type="text/javascript">
-    $(document).ready(function () {
-      $("#skku_wrap .skku_inner").css({
-        background: "url(/performance/img/sub_header_bg_korea_dance.jpg)",
-        "background-repeat": "no-repeat",
-        "background-position": "center center",
-      });
-    });
-  </script>
+  <?php include("../../footer.php"); ?>
 </div>
-<?php include("../../footer.php"); ?>
