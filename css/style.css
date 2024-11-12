@@ -898,7 +898,7 @@ background-size: cover;width:100%;height:100vh;display: table;} */
   font-size: 100px;
   line-height: 1.3;
   padding: 50px 0;
-  letter-spacing: -1px;
+  /* letter-spacing: -1px; */
   font-family: "Noto Sans KR", sans-serif;
   display: flex;
   flex-direction: column;
@@ -913,6 +913,9 @@ background-size: cover;width:100%;height:100vh;display: table;} */
   display: inline-block;
   letter-spacing: -7px;
 }
+#skku_wrap .contents .main .content .random .ltr {
+  width: max-content;
+}
 #skku_wrap .contents .main .content .box {
   font-family: "Noto Sans KR";
   display: inline-block;
@@ -926,7 +929,7 @@ background-size: cover;width:100%;height:100vh;display: table;} */
   font-weight: 400;
 }
 #skku_wrap .contents .main .content .box p:last-child {
-  letter-spacing: 0.2em;
+  /* letter-spacing: 0.2em; */
 }
 #skku_wrap .contents .main .content .box span {
   font-family: "Noto Sans KR";
