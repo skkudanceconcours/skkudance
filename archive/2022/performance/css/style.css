@@ -79,10 +79,10 @@ a:active { text-decoration:none; }
 .contents .box_row ul li a {background: #000; display: block;width: 100%;}
 .contents .box_row ul li a::after {display: inline-block; opacity:0;content: ''; width: 90%;height: 90%;border: 1px solid #fff;position: absolute;top: 5%;left: 5%; transition: ease-in-out .3s;}
 .contents .box_row ul li a img{width: 100%;display: block;}
-.contents .box_row ul li a img.iamges{}
+.contents .box_row ul li a img.images{}
 .contents .box_row ul li a:hover::after {opacity:1; transition: ease-in-out .5s;}
 .contents .box_row ul li a:hover .t_box{opacity: 1; transition: ease-in-out .5s;}
-.contents .box_row ul li a:hover .iamges {opacity:0.3;}
+.contents .box_row ul li a:hover .images {opacity:0.3;}
 .contents .box_row ul li a .t_box {width: 90%;position: absolute;top: 50%; text-align: center;left: 50%; transform: translate(-50%, -50%);color: #fff;opacity:0; transition: ease-in-out .3s;}
 .contents .box_row ul li a .t_box .t_title {font-size: 24px;font-weight: 700; margin-bottom: 1em;line-height: 1.2em;}
 .contents .box_row ul li a .t_box .t_dec {font-size: 16px;font-weight: 500; line-height: 1.5em;}

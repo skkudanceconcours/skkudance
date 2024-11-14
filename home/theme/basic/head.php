@@ -316,6 +316,14 @@ include_once(G5_LIB_PATH.'/popular.lib.php');
                                     <i></i>
                                     <a class="over" href="/alumni/2023/alumni.html">2023년 졸업생</a>
                                 </div>
+                                <div class="sub">
+                                    <i></i>
+                                    <a class="over" href="/alumni/2024/alumni.html">2024년 졸업생</a>
+                                </div>
+                                <div class="sub">
+                                    <i></i>
+                                    <a class="over" href="/alumni/2025/alumni.html">2025년 졸업생</a>
+                                </div>
                             </div>
                         </li>
                         <li class="hover_menu only_05">
@@ -492,7 +500,13 @@ include_once(G5_LIB_PATH.'/popular.lib.php');
                                         </li>                                 
                                         <li class="sub">
                                             <a href="/alumni/2023/alumni.html" >2023년 졸업생</a>                                
-                                        </li>                                 
+                                        </li>   
+                                        <li class="sub">
+                                            <a href="/alumni/2024/alumni.html" >2024년 졸업생</a>                                
+                                        </li>  
+                                        <li class="sub">
+                                            <a href="/alumni/2025/alumni.html" >2025년 졸업생</a>                                
+                                        </li>                              
                                     </ul> 
                                 </li>
                                 <li>

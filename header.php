@@ -171,7 +171,16 @@
                                     <i></i>
                                     <a class="over" href="/alumni/2023/alumni.html">2023년 졸업생</a>
                                 </div>
+                                <div class="sub">
+                                    <i></i>
+                                    <a class="over" href="/alumni/2024/alumni.html">2024년 졸업생</a>
+                                </div>
+                                <div class="sub">
+                                    <i></i>
+                                    <a class="over" href="/alumni/2025/alumni.html">2025년 졸업생</a>
+                                </div>
                             </div>
+                            
                         </li>
                         <li class="hover_menu only_05">
                             <button class="dropbtn"><a href="/home/bbs/board.php?bo_table=notice">NOTICE</a></button>
@@ -348,6 +357,12 @@
                                         </li>                                 
                                         <li class="sub">
                                             <a href="/alumni/2023/alumni.html" >2023년 졸업생</a>                                
+                                        </li>  
+                                        <li class="sub">
+                                            <a href="/alumni/2024/alumni.html" >2024년 졸업생</a>                                
+                                        </li>  
+                                        <li class="sub">
+                                            <a href="/alumni/2025/alumni.html" >2025년 졸업생</a>                                
                                         </li>                                 
                                     </ul> 
                                 </li>

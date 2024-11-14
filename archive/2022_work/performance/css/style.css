@@ -79,7 +79,7 @@ a:active { text-decoration:none; }
 .contents .box_row ul li a img{width: 100%;display: block;}
 .contents .box_row ul li a:hover::after {opacity:1; transition: ease-in-out .5s;}
 .contents .box_row ul li a:hover .t_box{opacity: 1; transition: ease-in-out .5s;}
-.contents .box_row ul li a:hover .iamges {opacity:0.3;}
+.contents .box_row ul li a:hover .images {opacity:0.3;}
 .contents .box_row ul li a .t_box {width: 90%;position: absolute;top: 50%; text-align: center;left: 50%; transform: translate(-50%, -50%);color: #fff;opacity:0; transition: ease-in-out .3s;}
 .contents .box_row ul li a .t_box .t_title {font-size: 24px;font-weight: 700; margin-bottom: 1em;line-height: 1.2em;}
 .contents .box_row ul li a .t_box .t_dec {font-size: 16px;font-weight: 500; line-height: 1.5em;}
