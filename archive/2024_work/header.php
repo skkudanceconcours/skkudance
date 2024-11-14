@@ -174,10 +174,10 @@
                                     <i></i>
                                     <a class="over" href="/alumni/2024/alumni.html">2024년 졸업생</a>
                                 </div>
-                                <div class="sub">
+                                <!-- <div class="sub">
                                     <i></i>
                                     <a class="over" href="/alumni/2025/alumni.html">2025년 졸업생</a>
-                                </div>
+                                </div> -->
                             </div>
                         </li>
                         <li class="hover_menu only_05">
@@ -359,9 +359,9 @@
                                         <li class="sub">
                                             <a href="/alumni/2024/alumni.html" >2024년 졸업생</a>                                
                                         </li>  
-                                        <li class="sub">
+                                        <!-- <li class="sub">
                                             <a href="/alumni/2025/alumni.html" >2025년 졸업생</a>                                
-                                        </li>
+                                        </li> -->
                                     </ul> 
                                 </li>
                                 <li>
