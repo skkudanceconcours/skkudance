@@ -397,5 +397,5 @@
                         </div>
                     </div>
                 </div>
-                <div class="title">제 <b>33</b>회 성균관대학교 무용학과 졸업작품 발표회<br><!-- <div class="smal">2021. 11. 18 목요일 오후 7시 ~ 일요일 오후 7시  <span>(48시간 스트리밍)</span></div> --></div>        
+                <div class="title">제 <b>3</b>회 성균관대학교 무용학과 레퍼토리 쇼케이스<br><!-- <div class="smal">2021. 11. 18 목요일 오후 7시 ~ 일요일 오후 7시  <span>(48시간 스트리밍)</span></div> --></div>        
                 </header>
