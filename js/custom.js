@@ -7,7 +7,7 @@ $(document).ready(function () {
   var index;
   var change;
   // var letters = ["2", "0", "2", "1"];
-  var letters = ["3", "3"];
+  var letters = ["3"];
   $randomnbr.each(function () {
     change = Math.round(Math.random() * 100);
     $(this).attr("data-change", change);
