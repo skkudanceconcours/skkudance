@@ -280,14 +280,14 @@ a:active {
   float: left;
   width: 24%;
   position: relative;
-  margin-right: 1%;
+  /* margin-right: 1%;
   margin-bottom: 1%;
-  border: 1px solid #e7e7e7;
+  border: 1px solid #e7e7e7; */
 }
 .contents.ballet .box_row ul li:nth-child(4n) {
   margin-right: 0%;
 }
-
+.contents.ballet .box_row ul li.grid3 {width: 33.3%;}
 /*컨텐츠 상세*/
 .go_back {
   position: absolute;
