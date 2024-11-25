@@ -193,7 +193,7 @@ include_once(G5_LIB_PATH.'/popular.lib.php');
                                 <!-- 임시주석 -->
                                     <div class="sub">
                                         <i></i>
-                                        <a href="/about/Congratulatory.html">축사 <small>Congratulatory Message</small></a>
+                                        <!-- <a href="/about/Congratulatory.html">축사 <small>Congratulatory Message</small></a> -->
                                         <a href="/about/Greetings.html">인사말 <small>Greetings</small></a>
                                         <a href="/about/Faculty.html">지도교수 <small>Faculty Members</small></a>
                                     </div>
@@ -219,9 +219,9 @@ include_once(G5_LIB_PATH.'/popular.lib.php');
                                     <a class="over" href="/archive/2021/index.html">2021 작품발표회</a>
                                     <ul class="menu_sub">
                                         <i></i>
-                                        <li class="sub"><a href="/about/Congratulatory.html">축사 <small>Congratulatory Message</small></a></li>
-                                        <li class="sub"><a href="/about/Greetings.html">인사말 <small>Greetings</small></a></li>
-                                        <li class="sub"><a href="/about/Faculty.html">지도교수 <small>Faculty Members</small></a></li>
+                                        <li class="sub"><a href="/archive/2021/about/Congratulatory.html">축사 <small>Congratulatory Message</small></a></li>
+                                        <li class="sub"><a href="/archive/2021/about/Greetings.html">인사말 <small>Greetings</small></a></li>
+                                        <li class="sub"><a href="/archive/2021/about/Faculty.html">지도교수 <small>Faculty Members</small></a></li>
                                     </ul>
                                 </div>
                                 <div class="sub_01">
@@ -308,7 +308,6 @@ include_once(G5_LIB_PATH.'/popular.lib.php');
                                     <a class="over" href="/performance_main.html">2024 쇼케이스</a>
                                     <ul class="menu_sub_09">
                                         <i></i>
-                                        <li class="sub"><a href="/about/Congratulatory.html">축사 <small>Congratulatory Message</small></a></li>
                                         <li class="sub"><a href="/about/Greetings.html">인사말 <small>Greetings</small></a></li>
                                         <li class="sub"><a href="/about/Faculty.html">지도교수 <small>Faculty Members</small></a></li>
                                     </ul>
@@ -509,7 +508,6 @@ include_once(G5_LIB_PATH.'/popular.lib.php');
                                                 </span>
                                             </a>                                
                                             <ul class="cont_m cont_m_01">
-                                                <li class="sub"><a href="/about/Congratulatory.html">축사 <small>Congratulatory Message</small></a></li>
                                                 <li class="sub"><a href="/about/Greetings.html">인사말 <small>Greetings</small></a></li>
                                                 <li class="sub"><a href="/about/Faculty.html">지도교수 <small>Faculty Members</small></a></li>
                                             </ul>

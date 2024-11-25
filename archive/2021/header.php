@@ -47,7 +47,7 @@
                             <div class="menu_content cont_02">
                                 <div class="sub">
                                     <i></i>
-                                    <a href="/about/Congratulatory.html">축사 <small>Congratulatory Message</small></a>
+                                    <!-- <a href="/about/Congratulatory.html">축사 <small>Congratulatory Message</small></a> -->
                                     <a href="/about/Greetings.html">인사말 <small>Greetings</small></a>
                                     <a href="/about/Faculty.html">지도교수 <small>Faculty Members</small></a>
                                 </div>
@@ -162,7 +162,6 @@
                                     <a class="over" href="/performance_main.html">2024 쇼케이스</a>
                                     <ul class="menu_sub_09">
                                         <i></i>
-                                        <li class="sub"><a href="/about/Congratulatory.html">축사 <small>Congratulatory Message</small></a></li>
                                         <li class="sub"><a href="/about/Greetings.html">인사말 <small>Greetings</small></a></li>
                                         <li class="sub"><a href="/about/Faculty.html">지도교수 <small>Faculty Members</small></a></li>
                                     </ul>
@@ -215,7 +214,7 @@
                                 </li>
                                 <li class="first"><a href="/about/Greetings.html">ABOUT</a>
                                     <ul class="cont_m cont_m_02">
-                                        <li class="sub"><a href="/about/Congratulatory.html">축사 <small>Congratulatory Message</small></a></li>
+                                        <!-- <li class="sub"><a href="/about/Congratulatory.html">축사 <small>Congratulatory Message</small></a></li> -->
                                         <li class="sub"><a href="/about/Greetings.html">인사말 <small>Greetings</small></a></li>
                                         <li class="sub"><a href="/about/Faculty.html">지도교수 <small>Faculty Members</small></a></li>
                                     </ul>
@@ -364,7 +363,6 @@
                                                 </span>
                                             </a>                                
                                             <ul class="cont_m cont_m_01">
-                                                <li class="sub"><a href="/about/Congratulatory.html">축사 <small>Congratulatory Message</small></a></li>
                                                 <li class="sub"><a href="/about/Greetings.html">인사말 <small>Greetings</small></a></li>
                                                 <li class="sub"><a href="/about/Faculty.html">지도교수 <small>Faculty Members</small></a></li>
                                             </ul>
