@@ -352,6 +352,7 @@ a:active {
 .detail_contents .video span {
   width: 24.7%;
   float: left;
+  margin-right: 0.5%;
 }
 .detail_contents .video img {
   width: 100%;
