@@ -217,6 +217,18 @@ a:active {
   left: 5%;
   transition: ease-in-out 0.3s;
 }
+.contents .box_row ul li a.blank::after {
+  display: inline-block;
+  opacity: 1;
+  content: "";
+  width: 90%;
+  height: 90%;
+  border: 1px solid #fff;
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  transition: ease-in-out 0.3s;
+}
 .contents .box_row ul li a img {
   width: 100%;
   display: block;
@@ -255,6 +267,9 @@ a:active {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5em;
+}
+.contents .box_row ul li a .t_box.blank {
+  opacity: 1;
 }
 
 /* 컨텐츠 영역 - 한국무용 */
