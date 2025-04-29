@@ -1,0 +1,124 @@
+<?php include("../../header.php"); ?>
+<link rel="stylesheet" href="/performance/css/style.css" />
+<link rel="stylesheet" href="/performance/css/media.css" />
+<link rel="stylesheet" href="/performance/css/swipebox.css" />
+<div class="contents contemporary">
+  <div class="go_back">
+    <a href="/performance/ballet.html" class="btn"
+      >작품목록<img src="/img/more_img.png" alt="더보기아이콘"
+    /></a>
+  </div>
+  <div class="contem_inner">
+    <div class="title">PERFORMANCE</div>
+    <div class="big_title">발레<span>Ballet</span></div>
+  </div>
+  <div class="detail_contents">
+    <div class="title_box">
+      <p class="title_p" style="word-break: keep-all">Serenade (1935) excerpt</p>
+    </div>
+    <div class="explan_box">
+      <p class="title_p">작품내용</p>
+      <p class="dec_p">
+        &lt;Serenade&gt;는 G. Balanchine이 미국에서 안무한 첫 번째 작품으로, 명확한 이야기 없이 그의 혁신적인 안무와 P. I. Tchaikovsky의 우아한 선율이 어우러져 서정적이면서도 깊은 감성을 자아낸다.
+      </p>
+    </div>
+    <div class="dec_box">
+      <div class="dec_wrap">
+        <ul>
+          <li>재구성 | </li>
+          <li>서고은, 김경희, 김윤수</li>
+        </ul>
+        <ul>
+          <li>안무 | </li>
+          <li>G. Balanchine</li>
+        </ul>
+        <ul>
+          <li>음악 | </li>
+          <li>P. I. Tchaikovsky</li>
+        </ul>
+        <div>
+          출연 | 권유정, 권현서, 김지민, 박진우, 신소은,
+          엄유진, 유지선, 윤수빈, 이채원, 최예주
+        </div>
+      </div>
+    </div>
+    <!-- <div class="container sketch">
+      <p class="title_p">공연스케치</p>
+      <div class="wrap">
+        <div id="try"></div>
+        <ul id="box-container">
+          <li class="box">
+            <a
+              href="../img/ballet_01_sketch01.jpg"
+              class="swipebox"
+              rel="gallery"
+            >
+              <img src="../img/ballet_01_sketch01_thum.jpg" alt="image" />
+            </a>
+          </li>
+          <li class="box">
+            <a
+              href="../img/ballet_01_sketch02.jpg"
+              class="swipebox"
+              rel="gallery"
+            >
+              <img src="../img/ballet_01_sketch02_thum.jpg" alt="image" />
+            </a>
+          </li>
+          <li class="box">
+            <a
+              href="../img/ballet_01_sketch03.jpg"
+              class="swipebox"
+              rel="gallery"
+            >
+              <img src="../img/ballet_01_sketch03_thum.jpg" alt="image" />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div> -->
+    <div class="video" style="margin-top: 5%">
+      <img src="/performance/img/B_4.jpg" class="증명사진" />
+    </div>
+  </div>
+
+  <!--라이트박스-->
+  <script src="/performance/js/jquery.swipebox.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function () {
+      /* Basic Gallery */
+      $(".swipebox").swipebox({
+        loopAtEnd: true,
+      });
+
+      /* Dynamic Gallery */
+      $("#gallery").on("click", function (e) {
+        e.preventDefault();
+        $.swipebox([
+          { href: "demo/images/big-1.jpg", title: "My Caption" },
+          { href: "demo/images/big-2.jpg", title: "My Second Caption" },
+        ]);
+      });
+
+      /* Smooth scroll */
+      $(".scroll").on("click", function () {
+        $("html, body").animate(
+          { scrollTop: $($(this).attr("href")).offset().top - 15 },
+          750
+        ); // Go
+        return false;
+      });
+    });
+  </script>
+  <!--페이지별 헤더이미지 로드-->
+  <script type="text/javascript">
+    $(document).ready(function () {
+      $("#skku_wrap .skku_inner").css({
+        background: "url(/performance/img/sub_header_bg_ballet_ver2.jpg)",
+        "background-repeat": "no-repeat",
+        "background-position": "center center",
+      });
+    });
+  </script>
+</div>
+<?php include("../../footer.php"); ?>
