@@ -431,5 +431,5 @@
                         </div>
                     </div>
                 </div>
-                <div class="title">제 <b>35</b>회 성균관대학교 무용학과<br> 작품발표회<!-- <div class="smal">2021. 11. 18 목요일 오후 7시 ~ 일요일 오후 7시  <span>(48시간 스트리밍)</span></div> --></div>        
+                <div class="title">제 <b>3</b>회 성균관대학교 무용학과 레퍼토리 쇼케이스<!-- <div class="smal">2021. 11. 18 목요일 오후 7시 ~ 일요일 오후 7시  <span>(48시간 스트리밍)</span></div> --></div>        
                 </header>
