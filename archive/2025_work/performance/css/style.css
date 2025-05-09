@@ -116,6 +116,10 @@ a:active { text-decoration:none; }
 
 
 .detail_contents{border-top: 1px solid #eee;margin-top: 5%;}
+.detail_contents .title_description a {
+	text-decoration: underline;
+	text-underline-offset: 2px;
+}
 
 .detail_contents .title_box {margin-top: 5%;/* padding: 5% 0 3%;border-top: 1px solid #eee; */}
 .detail_contents .title_box p {line-height: 1.5em; word-break: keep-all;}
