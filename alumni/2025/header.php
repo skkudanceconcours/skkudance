@@ -234,9 +234,9 @@
                                 <li class="first"><a href="/archive/2025_work/index.html">PERFORMANCE</a>     
                                     <!-- 임시주석 -->
                                      <ul class="cont_m cont_m_01">
-                                         <li class="sub"><a href="/archive/2025_work/performance/contemporary.html" class="a_box">컨템포러리 댄스 <small>Contemporary Dance</small></a></li>
                                          <li class="sub"><a href="/archive/2025_work/performance/korean_dance.html" class="a_box">한국무용 <small>Korean Dance</small></a></li>
                                          <li class="sub"><a href="/archive/2025_work/performance/ballet.html" class="a_box">발레 <small>Ballet</small></a></li>
+                                         <li class="sub"><a href="/archive/2025_work/performance/contemporary.html" class="a_box">컨템포러리 댄스 <small>Contemporary Dance</small></a></li>
                                     </ul> 
                                 </li>
                                 <li class="first"><a href="#">ARCHIVE</a>
