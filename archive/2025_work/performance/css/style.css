@@ -116,6 +116,10 @@ a:active { text-decoration:none; }
 
 
 .detail_contents{border-top: 1px solid #eee;margin-top: 5%;}
+.detail_contents .title_description {
+	font-size: 14px;
+	font-weight: 300;
+}
 .detail_contents .title_description a {
 	text-decoration: underline;
 	text-underline-offset: 2px;
@@ -145,8 +149,8 @@ a:active { text-decoration:none; }
 
 .detail_contents .dec_box {margin-bottom: 5%;}
 .detail_contents .dec_box .dec_wrap{font-size: 16px; line-height: 1.5;}
-.detail_contents .dec_box .dec_wrap ul{display: flex;}
-.detail_contents .dec_box .dec_wrap ul li:nth-of-type(1){min-width: 32px;}
+.detail_contents .dec_box .dec_wrap ul{display: flex; align-items: start;}
+.detail_contents .dec_box .dec_wrap ul li:nth-of-type(1){display: block; min-width: max-content;}
 .detail_contents .dec_box .dec_wrap ul li:nth-of-type(2){flex-wrap: wrap; padding-left: 2px;}
 
 
