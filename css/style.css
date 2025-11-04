@@ -169,7 +169,6 @@ a:active {
 #skku_wrap .header .menu {
   max-width: 1200px;
   margin: 0 auto;
-  
 }
 #skku_wrap .header .menu ul li {
   display: inline-block;
@@ -987,28 +986,15 @@ background-size: cover;width:100%;height:100vh;display: table;} */
   text-align: center;
 }
 #skku_wrap .contents .main .large_bg {
+  width: 100%;
+  height: 100%;
   position: absolute;
   object-fit: contain;
-  /* width: 300dvw; */
-  /* height: 100%; */
-  /* background-color: #d6a9d8;   */
-  /* animation: slideRight 9.048s linear infinite;
-  -moz-background-size: cover;
-  -o-background-size: cover;  
-  background-size: cover;}
- @keyframes slideRight {
-  0%{left: 0;}
-  12.4%{left:calc(-2.32% * 2);}
-  24.6%{left:calc(-7.61% * 2);}
-  37.2%{left:calc(-45.13% * 2);}
-  50.5%{left:calc(-47.47% * 2);}
-  74%{left:calc(-100% * 2);}
-  100%{left:calc(-100% * 2);} */
-  /* background-color: #124512; */
 }
 
 #skku_wrap .contents .main .large_bg img {
   width: 100%;
+  height: 100%;
   object-fit: contain;
 }
 
