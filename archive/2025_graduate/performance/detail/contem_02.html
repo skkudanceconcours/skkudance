@@ -1,0 +1,117 @@
+<?php include("/header.php"); ?>
+<link rel="stylesheet" href="/archive/css/style.css" />
+<link rel="stylesheet" href="/archive/css/media.css" />
+<link rel="stylesheet" href="/archive/css/swipebox.css" />
+<div class="contents contemporary">
+  <div class="go_back">
+    <a href="/archive/2025_graduate/performance/contemporary.html" class="btn"
+      >작품목록<img src="/img/more_img.png" alt="더보기아이콘"
+    /></a>
+  </div>
+  <div class="contem_inner">
+    <div class="title">PERFORMANCE</div>
+    <div class="big_title">컨템포러리 댄스<span>Contemporary Dance</span></div>
+  </div>
+  <div class="detail_contents">
+    <div class="title_box">
+      <p class="title_p">감정의 파편, 상처에 대하여</p>
+    </div>
+    <div class="explan_box">
+      <p class="title_p">작품내용</p>
+      <p class="dec_p">
+        타인이 아닌, 바로 내가 스스로를 다그치고 탓하는 순간이 있다.<br />
+        “나는 충분하지 않아”, “왜 이렇게밖에 못할까”라는 자기비난이 마음을 갉아먹는다.<br />
+        이 상처는 타인보다도 깊고 은밀하다. 외로움과 비교, 실패에 대한 두려움 속에서<br />
+        나 자신에게 가한 말과 생각이 내 감정을 더욱 아프게 만든다.<br />
+        아무리 뿌리쳐도 벗어 날 수 없는 고통들 결국 이렇게 고통을 받는 순간순간이 모여 죽음에 다다르게 만든다.<br />
+        이 감정의 파편들을 표현함으로써, 스스로에게 그리고 우리에게 작은 위안을 건네고자 한다.
+      </p>
+    </div>
+    <div class="dec_box">
+      <p class="dec_p">
+        음악 | Elegia, Op.4/1 - Leevi Madetoja<br/>
+        안무 및 출연 | 한지원
+      </p>
+    </div>
+    <div class="video">
+      <span
+        ><img src="/archive/2025_graduate/performance/img/contemporary_2.jpg" class="증명사진" />
+      </span>
+    </div>
+    <!-- <div class="container sketch">
+      <p class="title_p">공연스케치</p>
+      <div class="wrap">
+        <div id="try"></div>
+        <ul id="box-container">
+          <li class="box">
+            <a
+              href="../img/contem_01_sketch01.jpg"
+              class="swipebox"
+              rel="gallery"
+            >
+              <img src="../img/contem_01_sketch01_thum.jpg" alt="image" />
+            </a>
+          </li>
+          <li class="box">
+            <a
+              href="../img/contem_01_sketch02.jpg"
+              class="swipebox"
+              rel="gallery"
+            >
+              <img src="../img/contem_01_sketch02_thum.jpg" alt="image" />
+            </a>
+          </li>
+          <li class="box">
+            <a
+              href="../img/contem_01_sketch03.jpg"
+              class="swipebox"
+              rel="gallery"
+            >
+              <img src="../img/contem_01_sketch03_thum.jpg" alt="image" />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div> -->
+  </div>
+
+  <!--라이트박스-->
+  <script src="/js/jquery.swipebox.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function () {
+      /* Basic Gallery */
+      $(".swipebox").swipebox({
+        loopAtEnd: true,
+      });
+
+      /* Dynamic Gallery */
+      $("#gallery").on("click", function (e) {
+        e.preventDefault();
+        $.swipebox([
+          { href: "demo/images/big-1.jpg", title: "My Caption" },
+          { href: "demo/images/big-2.jpg", title: "My Second Caption" },
+        ]);
+      });
+
+      /* Smooth scroll */
+      $(".scroll").on("click", function () {
+        $("html, body").animate(
+          { scrollTop: $($(this).attr("href")).offset().top - 15 },
+          750
+        ); // Go
+        return false;
+      });
+    });
+  </script>
+  <!--페이지별 헤더이미지 로드-->
+  <script type="text/javascript">
+    $(document).ready(function () {
+      $("#skku_wrap .skku_inner").css({
+        background: "url(/archive/img/sub_header_bg_comtemporary.jpg)",
+        "background-repeat": "no-repeat",
+        "background-position": "center center",
+      });
+    });
+  </script>
+</div>
+<?php include("/footer.php"); ?>
