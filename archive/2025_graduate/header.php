@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com"> 
     <link rel="stylesheet" href="http://www.skkudance.kr/home/js/font-awesome/css/font-awesome.min.css?ver=191202">
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">  
+     
     <link rel="apple-touch-icon" sizes="57x57" href="/favicon/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="/favicon/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="/favicon/apple-icon-72x72.png">
@@ -28,10 +29,10 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff"> 
+
+
     <script src='https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js'></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-    
-
 </head>
 <body id="main">
     <div id="skku_wrap">
@@ -161,7 +162,7 @@
                                     <i></i>
                                     <a class="over" href="/archive/2024_showcase/index.html">2024 쇼케이스</a>
                                     <ul class="menu_sub_09">
-                                        <i></i>
+                                        <i></i>                                        
                                         <li class="sub"><a href="/archive/2024_showcase/about/Greetings.html">인사말 <small>Greetings</small></a></li>
                                         <li class="sub"><a href="/archive/2024_showcase/about/Faculty.html">지도교수 <small>Faculty Members</small></a></li>
                                     </ul>
@@ -209,6 +210,7 @@
                                     <a class="over" href="/alumni/2025/alumni.html">2025년 졸업생</a>
                                 </div> -->
                             </div>
+                            
                         </li>
                         <li class="hover_menu only_05">
                             <button class="dropbtn"><a href="/home/bbs/board.php?bo_table=notice">NOTICE</a></button>
@@ -387,7 +389,7 @@
                                                 <li class="sub"><a href="/archive/2024_showcase/about/Greetings.html">인사말 <small>Greetings</small></a></li>
                                                 <li class="sub"><a href="/archive/2024_showcase/about/Faculty.html">지도교수 <small>Faculty Members</small></a></li>
                                             </ul>
-                                        </li>  
+                                        </li>
                                         <li class="sub">
                                             <a href="/archive/2025_work/index.html">2025 작품발표회
                                                 <span>
@@ -416,7 +418,8 @@
                                                 <li class="sub"><a href="/archive/2025_graduate/about/Greetings.html">인사말 <small>Greetings</small></a></li>
                                                 <li class="sub"><a href="/archive/2025_graduate/about/Faculty.html">지도교수 <small>Faculty Members</small></a></li>
                                             </ul>
-                                        </li> 
+                                        </li>
+                                        
                                     </ul>
                                 </li>
                                 <li class="first">
@@ -427,13 +430,13 @@
                                         </li>                                 
                                         <li class="sub">
                                             <a href="/alumni/2023/alumni.html" >2023년 졸업생</a>                                
-                                        </li>                                 
+                                        </li>  
                                         <li class="sub">
                                             <a href="/alumni/2024/alumni.html" >2024년 졸업생</a>                                
                                         </li>  
                                         <!-- <li class="sub">
                                             <a href="/alumni/2025/alumni.html" >2025년 졸업생</a>                                
-                                        </li> -->
+                                        </li>                                  -->
                                     </ul> 
                                 </li>
                                 <li>
@@ -443,5 +446,5 @@
                         </div>
                     </div>
                 </div>
-                <div class="title">제 <b>31</b>회 성균관대학교 무용학과<br> 작품발표회<!-- <div class="smal">2021. 11. 18 목요일 오후 7시 ~ 일요일 오후 7시  <span>(48시간 스트리밍)</span></div> --></div>        
+                <div class="title">제 <b>34</b>회 성균관대학교 무용학과 졸업작품 발표회<br><!-- <div class="smal">2021. 11. 18 목요일 오후 7시 ~ 일요일 오후 7시  <span>(48시간 스트리밍)</span></div> --></div>        
                 </header>
