@@ -43,13 +43,13 @@
                             <button class="dropbtn"><a href="/">MAIN</a></button>
                         </li>
                         <li class="hover_menu only_01">
-                            <button class="dropbtn"><a href="/archive/2025_work/about/Greetings.html">ABOUT</a></button>
+                            <button class="dropbtn"><a href="/archive/2025_graduate/about/Greetings.html">ABOUT</a></button>
                             <div class="menu_content cont_02">
                                 <div class="sub">
                                     <i></i>
-                                    <a href="/archive/2025_work/about/Congratulatory.html">축사 <small>Congratulatory Message</small></a>
-                                    <a href="/archive/2025_work/about/Greetings.html">인사말 <small>Greetings</small></a>
-                                    <a href="/archive/2025_work/about/Faculty.html">지도교수 <small>Faculty Members</small></a>
+                                    <a href="/archive/2025_graduate/about/Congratulatory.html">축사 <small>Congratulatory Message</small></a>
+                                    <a href="/archive/2025_graduate/about/Greetings.html">인사말 <small>Greetings</small></a>
+                                    <a href="/archive/2025_graduate/about/Faculty.html">지도교수 <small>Faculty Members</small></a>
                                 </div>
                             </div>
                         </li>
