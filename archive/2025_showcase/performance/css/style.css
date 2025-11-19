@@ -197,6 +197,11 @@ a:active {
 .contents.contemporary .box_row ul li.grid3 {
   width: 33.3%;
 }
+.contents.contemporary .box_row ul li.grid3:nth-child(1),
+.contents.contemporary .box_row ul li.grid3:nth-child(2),
+.contents.contemporary .box_row ul li.grid3:nth-child(3){
+  aspect-ratio: 1.494;
+}
 .contents.contemporary .box_row ul li:nth-child(4n) {
   margin-right: 0%;
 }
