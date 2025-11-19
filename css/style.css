@@ -292,7 +292,7 @@ a:active {
 #skku_wrap .header .menu_content .sub_08,
 #skku_wrap .header .menu_content .sub_09,
 #skku_wrap .header .menu_content .sub_10,
-#skku_wrap .header .menu_content .sub_11
+#skku_wrap .header .menu_content .sub_11,
 #skku_wrap .header .menu_content .sub_12 {
   background-color: #f9f9f9;
   padding: 15px 8px;
@@ -309,7 +309,7 @@ a:active {
 #skku_wrap .header .menu_content .sub_08 a,
 #skku_wrap .header .menu_content .sub_09 a,
 #skku_wrap .header .menu_content .sub_10 a,
-#skku_wrap .header .menu_content .sub_11 a 
+#skku_wrap .header .menu_content .sub_11 a,
 #skku_wrap .header .menu_content .sub_12 a {
   display: inline-block;
 }
@@ -324,7 +324,7 @@ a:active {
 #skku_wrap .header .menu_content .sub_08 i,
 #skku_wrap .header .menu_content .sub_09 i,
 #skku_wrap .header .menu_content .sub_10 i,
-#skku_wrap .header .menu_content .sub_11 i
+#skku_wrap .header .menu_content .sub_11 i,
 #skku_wrap .header .menu_content .sub_12 i {
   display: block;
   width: 1px;
