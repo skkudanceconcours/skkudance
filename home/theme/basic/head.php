@@ -333,6 +333,15 @@ include_once(G5_LIB_PATH.'/popular.lib.php');
                                         <li class="sub"><a href="/archive/2025_graduate/about/Faculty.html">지도교수 <small>Faculty Members</small></a></li>
                                     </ul>
                                 </div>
+                                <div class="sub_12">
+                                    <i></i>
+                                    <a class="over" href="/archive/2025_showcase/index.html">2025 쇼케이스</a>
+                                    <ul class="menu_sub_12">
+                                        <i></i>
+                                        <li class="sub"><a href="/archive/2025_showcase/about/Greetings.html">인사말 <small>Greetings</small></a></li>
+                                        <li class="sub"><a href="/archive/2025_showcase/about/Faculty.html">지도교수 <small>Faculty Members</small></a></li>
+                                    </ul>
+                                </div>
                             </div>
                         </li>
                         <li class="hover_menu only_04">
@@ -531,6 +540,47 @@ include_once(G5_LIB_PATH.'/popular.lib.php');
                                             <ul class="cont_m cont_m_01">
                                                 <li class="sub"><a href="/archive/2024_showcase/about/Greetings.html">인사말 <small>Greetings</small></a></li>
                                                 <li class="sub"><a href="/archive/2024_showcase/about/Faculty.html">지도교수 <small>Faculty Members</small></a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="sub">
+                                            <a href="/archive/2025_work/index.html">2025 작품발표회
+                                                <span>
+                                                    <a href="#" >
+                                                        <img src="/img/gnb_arrow.png" alt="서브메뉴오픈" width="12">
+                                                    </a>
+                                                </span>
+                                            </a>                                
+                                            <ul class="cont_m cont_m_01">
+                                                <li class="sub"><a href="/archive/2025_work/about/Congratulatory.html">축사 <small>Congratulatory Message</small></a></li>
+                                                <li class="sub"><a href="/archive/2025_work/about/Greetings.html">인사말 <small>Greetings</small></a></li>
+                                                <li class="sub"><a href="/archive/2025_work/about/Faculty.html">지도교수 <small>Faculty Members</small></a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="sub">
+                                            <a href="/archive/2025_graduate/index.html">2025 졸업발표회
+                                                <span>
+                                                    <a href="#" >
+                                                        <img src="/img/gnb_arrow.png" alt="서브메뉴오픈" width="12">
+                                                    </a>
+                                                </span>
+                                            </a>                                
+                                            <ul class="cont_m cont_m_01">
+                                                <li class="sub"><a href="/archive/2025_graduate/about/Congratulatory.html">축사 <small>Congratulatory Message</small></a></li>
+                                                <li class="sub"><a href="/archive/2025_graduate/about/Greetings.html">인사말 <small>Greetings</small></a></li>
+                                                <li class="sub"><a href="/archive/2025_graduate/about/Faculty.html">지도교수 <small>Faculty Members</small></a></li>
+                                            </ul>
+                                        </li>     
+                                        <li class="sub">
+                                            <a href="/archive/2025_showcase/index.html">2025 쇼케이스
+                                                <span>
+                                                    <a href="#" >
+                                                        <img src="/img/gnb_arrow.png" alt="서브메뉴오픈" width="12">
+                                                    </a>
+                                                </span>
+                                            </a>                                
+                                            <ul class="cont_m cont_m_01">
+                                                <li class="sub"><a href="/archive/2025_showcase/about/Greetings.html">인사말 <small>Greetings</small></a></li>
+                                                <li class="sub"><a href="/archive/2025_showcase/about/Faculty.html">지도교수 <small>Faculty Members</small></a></li>
                                             </ul>
                                         </li>                      
                                     </ul>
