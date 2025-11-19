@@ -1,0 +1,110 @@
+<?php include("../../header.php"); ?>
+<link rel="stylesheet" href="/archive/2024_showcase/performance/css/style.css">
+<link rel="stylesheet" href="/archive/2024_showcase/performance/css/media.css">
+<link rel="stylesheet" href="/archive/2024_showcase/performance/css/swipebox.css">
+<div class="contents contemporary">
+	<div class="go_back">
+		<a href="/archive/2024_showcase/performance/contemporary.html" class="btn">작품목록<img src="/img/more_img.png" alt="더보기아이콘"></a>
+	</div>
+	<div class="contem_inner">
+		<div class="title">PERFORMANCE</div>
+		<div class="big_title">컨템포러리 댄스<span>Contemporary Dance</span></div>
+	</div>
+
+	<div class="detail_contents">
+		<div class="title_box">
+			<p class="title_p">나는 앉는다 고로 존재한다 (Excerpt)</p>
+		</div>
+		<div class="explan_box">
+			<p class="title_p">작품내용</p>
+			<p class="dec_p">
+				김나이무브먼트컬렉티브(NKMC)의 즉흥공연 &lt;나는 앉는다 고로 존재한다&gt;는<br/>
+				2023년 5월 28일 서울 아르코예술극장에서 초연하였으며 이를 기반으로 본 공연 중 일부를 재구성하여 진행한다.<br/>
+				작품내용은 현대사회에서 의자가 발명되며 시작된 비교적 새로운 자세인 앉기와 이로부터 동행하는 심리의 경험을 중점으로 한다.
+			</p>
+		</div>
+		<div class="dec_box">
+			<div class="dec_wrap">
+				<ul>
+					<li>지도교수 |</li>
+					<li>김미희</li>
+				</ul>
+				<!-- <ul>
+					<li>안무 |</li>
+					<li>김나이</li>
+				</ul> -->
+				<!-- <ul>
+					<li>음악 |</li>
+					<li>
+						Undan Hulu - Olafur Arnalds
+					</li>
+				</ul> -->
+				<ul>
+					<li>출연 |</li>
+					<li>김다빈, 김리찬, 문정웅, 문정원, 박수민, 배상민, 석이강, 이다연, 정윤지, 지서현, 최지아, 한여원</li>
+				</ul>
+			</div>
+		</div>
+
+		<!-- <div class="container sketch">
+			<p class="title_p">공연스케치</p>
+			<div class="wrap">
+				<div id="try"></div>
+				<ul id="box-container">
+					<li class="box">
+						<a href="../img/contem_03_sketch01.jpg" class="swipebox" rel="gallery">
+							<img src="../img/contem_03_sketch01_thum.jpg" alt="image">
+						</a>
+					</li>
+					<li class="box">
+						<a href="../img/contem_03_sketch02.jpg" class="swipebox" rel="gallery">
+							<img src="../img/contem_03_sketch02_thum.jpg" alt="image">
+						</a>
+					</li>
+					<li class="box">
+						<a href="../img/contem_03_sketch03.jpg" class="swipebox" rel="gallery">
+							<img src="../img/contem_03_sketch03_thum.jpg" alt="image">
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div> -->
+		<div class="video" style="margin-top: 5%;">
+			<img src="../img/C_2.jpg" class="증명사진">
+		</div>		
+	</div>
+
+	<!--라이트박스-->
+	<script src="/js/jquery.swipebox.js"></script>
+	<script type="text/javascript">
+	$( document ).ready(function() {
+
+			/* Basic Gallery */
+			$( '.swipebox' ).swipebox({
+				loopAtEnd: true
+			});
+			
+			/* Dynamic Gallery */
+			$( '#gallery' ).on( 'click', function( e ) {
+				e.preventDefault();
+				$.swipebox( [
+					{ href : 'demo/images/big-1.jpg', title : 'My Caption' },
+					{ href : 'demo/images/big-2.jpg', title : 'My Second Caption' }
+				] );
+			} );
+
+			/* Smooth scroll */
+			$( '.scroll' ).on( 'click', function () {
+				$( 'html, body' ).animate( { scrollTop: $( $( this ).attr('href') ).offset().top - 15 }, 750 ); // Go
+				return false;
+			});
+      });
+	</script>
+	<!--페이지별 헤더이미지 로드-->
+	<script type="text/javascript">
+		  $(document).ready(function(){
+			$('#skku_wrap .skku_inner').css({ "background": "url(/archive/img/sub_header_bg_comtemporary.jpg)",'background-repeat' : 'no-repeat', 'background-position':'center center' })
+		});
+	</script>
+</div>
+<?php include("../../footer.php"); ?>
