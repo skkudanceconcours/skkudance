@@ -176,6 +176,9 @@ a:active {
 .contents .title{font-size: 20px;margin-bottom: 20px;}
 .contents .big_title{font-size: 40px; font-weight: 700; line-height: 1em; margin-bottom: 35px;}
 .contents .big_title span{display: block;font-size: 32px;font-weight: 500; color: #c7c7c7;}
+.contents .desc { font-size: 16px; color: #8b8b8b; line-height: 130%; margin-bottom: 5%;}
+.contents .desc p { margin-bottom: 20px;}
+.contents .desc ul { color:#000; font-size: 14px; display: flex; flex-direction: column;}
 
 /* 컨텐츠 영역 - 컨템포러리 */
 .contents .contem_inner {
