@@ -11,7 +11,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com"> 
     <link rel="stylesheet" href="http://www.skkudance.kr/home/js/font-awesome/css/font-awesome.min.css?ver=191202">
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">  
-     
     <link rel="apple-touch-icon" sizes="57x57" href="/favicon/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="/favicon/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="/favicon/apple-icon-72x72.png">
@@ -29,10 +28,10 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff"> 
-
-
     <script src='https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js'></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    
+
 </head>
 <body id="main">
     <div id="skku_wrap">
@@ -44,25 +43,25 @@
                             <button class="dropbtn"><a href="/">MAIN</a></button>
                         </li>
                         <li class="hover_menu only_01">
-                            <button class="dropbtn"><a href="/archive/2025_showcase/about/Greetings.html">ABOUT</a></button>
+                            <button class="dropbtn"><a href="/archive/2026_work/about/Congratulatory.html">ABOUT</a></button>
                             <div class="menu_content cont_02">
                                 <div class="sub">
                                     <i></i>
-                                    <a href="/archive/2025_showcase/about/Congratulatory.html">축사 <small>Congratulatory Message</small></a>
-                                    <a href="/archive/2025_showcase/about/Greetings.html">인사말 <small>Greetings</small></a>
-                                    <a href="/archive/2025_showcase/about/Faculty.html">지도교수 <small>Faculty Members</small></a>
+                                    <a href="/archive/2026_work/about/Congratulatory.html">축사 <small>Congratulatory Message</small></a>
+                                    <a href="/archive/2026_work/about/Greetings.html">인사말 <small>Greetings</small></a>
+                                    <a href="/archive/2026_work/about/Faculty.html">지도교수 <small>Faculty Members</small></a>
                                 </div>
                             </div>
                         </li>
                         <li class="hover_menu only_02">
-                            <button class="dropbtn"><a href="/archive/2025_showcase/index.html"><i></i>PERFORMANCE</a></button>
+                            <button class="dropbtn"><a href="/archive/2026_work/index.html"><i></i>PERFORMANCE</a></button>
                             <div class="menu_content cont_01">
                                 <!-- 임시주석 -->
                                  <div class="sub">
                                     <i></i>
-                                    <a href="/archive/2025_showcase/performance/ballet.html">발레 <small>Ballet</small></a>
-                                    <a href="/archive/2025_showcase/performance/contemporary.html">컨템포러리 댄스 <small>Contemporary Dance</small></a>
-                                    <a href="/archive/2025_showcase/performance/korean_dance.html">한국무용 <small>Korean Dance</small></a>
+                                    <a href="/archive/2026_work/performance/ballet.html">발레 <small>Ballet</small></a>
+                                    <a href="/archive/2026_work/performance/contemporary.html">컨템포러리 댄스 <small>Contemporary Dance</small></a>
+                                    <a href="/archive/2026_work/performance/korean_dance.html">한국무용 <small>Korean Dance</small></a>
                                 </div> 
                             </div>  
                         </li>
@@ -162,7 +161,7 @@
                                     <i></i>
                                     <a class="over" href="/archive/2024_showcase/index.html">2024 쇼케이스</a>
                                     <ul class="menu_sub_09">
-                                        <i></i>                                        
+                                        <i></i>
                                         <li class="sub"><a href="/archive/2024_showcase/about/Greetings.html">인사말 <small>Greetings</small></a></li>
                                         <li class="sub"><a href="/archive/2024_showcase/about/Faculty.html">지도교수 <small>Faculty Members</small></a></li>
                                     </ul>
@@ -197,7 +196,17 @@
                                         <li class="sub"><a href="/archive/2025_showcase/about/Faculty.html">지도교수 <small>Faculty Members</small></a></li>
                                     </ul>
                                 </div>
-                            </div>
+                                                            <div class="sub_13">
+                                    <i></i>
+                                    <a class="over" href="/archive/2026_work/index.html">2026 작품발표회</a>
+                                    <ul class="menu_sub_13">
+                                        <i></i>
+                                        <li class="sub"><a href="/archive/2026_work/about/Congratulatory.html">축사 <small>Congratulatory Message</small></a></li>
+                                        <li class="sub"><a href="/archive/2026_work/about/Greetings.html">인사말 <small>Greetings</small></a></li>
+                                        <li class="sub"><a href="/archive/2026_work/about/Faculty.html">지도교수 <small>Faculty Members</small></a></li>
+                                    </ul>
+                                </div>
+</div>
                         </li>
                         <li class="hover_menu only_04">
                         <button class="dropbtn">ALUMNI</button>
@@ -223,7 +232,6 @@
                                     <a class="over" href="/alumni/2026/alumni.html">2026년 졸업생</a>
                                 </div>
                             </div>
-                            
                         </li>
                         <li class="hover_menu only_05">
                             <button class="dropbtn"><a href="/home/bbs/board.php?bo_table=notice">NOTICE</a></button>
@@ -248,19 +256,19 @@
                             <ul class="show">
                                 <li class="first"><a href="/">MAIN</a>
                                 </li>
-                                <li class="first"><a href="/archive/2025_work/about/Greetings.html">ABOUT</a>
+                                <li class="first"><a href="/archive/2026_work/about/Congratulatory.html">ABOUT</a>
                                     <ul class="cont_m cont_m_02">
-                                        <li class="sub"><a href="/archive/2025_work/about/Congratulatory.html">축사 <small>Congratulatory Message</small></a></li>
-                                        <li class="sub"><a href="/archive/2025_work/about/Greetings.html">인사말 <small>Greetings</small></a></li>
-                                        <li class="sub"><a href="/archive/2025_work/about/Faculty.html">지도교수 <small>Faculty Members</small></a></li>
+                                        <li class="sub"><a href="/archive/2026_work/about/Congratulatory.html">축사 <small>Congratulatory Message</small></a></li>
+                                        <li class="sub"><a href="/archive/2026_work/about/Greetings.html">인사말 <small>Greetings</small></a></li>
+                                        <li class="sub"><a href="/archive/2026_work/about/Faculty.html">지도교수 <small>Faculty Members</small></a></li>
                                     </ul>
                                 </li>
-                                <li class="first"><a href="/archive/2025_work/index.html">PERFORMANCE</a>     
+                                <li class="first"><a href="/archive/2026_work/index.html">PERFORMANCE</a>     
                                     <!-- 임시주석 -->
                                      <ul class="cont_m cont_m_01">
-                                         <li class="sub"><a href="/archive/2025_work/performance/ballet.html" class="a_box">발레 <small>Ballet</small></a></li>
-                                         <li class="sub"><a href="/archive/2025_work/performance/contemporary.html" class="a_box">컨템포러리 댄스 <small>Contemporary Dance</small></a></li>
-                                         <li class="sub"><a href="/archive/2025_work/performance/korean_dance.html" class="a_box">한국무용 <small>Korean Dance</small></a></li>
+                                         <li class="sub"><a href="/archive/2026_work/performance/ballet.html" class="a_box">발레 <small>Ballet</small></a></li>
+                                         <li class="sub"><a href="/archive/2026_work/performance/contemporary.html" class="a_box">컨템포러리 댄스 <small>Contemporary Dance</small></a></li>
+                                         <li class="sub"><a href="/archive/2026_work/performance/korean_dance.html" class="a_box">한국무용 <small>Korean Dance</small></a></li>
                                     </ul> 
                                 </li>
                                 <li class="first"><a href="#">ARCHIVE</a>
@@ -389,7 +397,7 @@
                                                 <li class="sub"><a href="/archive/2024_graduate/about/Greetings.html">인사말 <small>Greetings</small></a></li>
                                                 <li class="sub"><a href="/archive/2024_graduate/about/Faculty.html">지도교수 <small>Faculty Members</small></a></li>
                                             </ul>
-                                        </li>  
+                                        </li>    
                                         <li class="sub">
                                             <a href="/archive/2024_showcase/index.html">2024 쇼케이스
                                                 <span>
@@ -402,7 +410,7 @@
                                                 <li class="sub"><a href="/archive/2024_showcase/about/Greetings.html">인사말 <small>Greetings</small></a></li>
                                                 <li class="sub"><a href="/archive/2024_showcase/about/Faculty.html">지도교수 <small>Faculty Members</small></a></li>
                                             </ul>
-                                        </li>
+                                        </li>  
                                         <li class="sub">
                                             <a href="/archive/2025_work/index.html">2025 작품발표회
                                                 <span>
@@ -445,7 +453,22 @@
                                                 <li class="sub"><a href="/archive/2025_showcase/about/Faculty.html">지도교수 <small>Faculty Members</small></a></li>
                                             </ul>
                                         </li>
-                                    </ul>
+                                        
+                                                                            <li class="sub">
+                                            <a href="/archive/2026_work/index.html">2026 작품발표회
+                                                <span>
+                                                    <a href="#" >
+                                                        <img src="/img/gnb_arrow.png" alt="서브메뉴오픈" width="12">
+                                                    </a>
+                                                </span>
+                                            </a>                                
+                                            <ul class="cont_m cont_m_01">
+                                                <li class="sub"><a href="/archive/2026_work/about/Congratulatory.html">축사 <small>Congratulatory Message</small></a></li>
+                                                <li class="sub"><a href="/archive/2026_work/about/Greetings.html">인사말 <small>Greetings</small></a></li>
+                                                <li class="sub"><a href="/archive/2026_work/about/Faculty.html">지도교수 <small>Faculty Members</small></a></li>
+                                            </ul>
+                                        </li>
+</ul>
                                 </li>
                                 <li class="first">
                                     <a href="#">ALUMNI</a>
@@ -455,7 +478,7 @@
                                         </li>                                 
                                         <li class="sub">
                                             <a href="/alumni/2023/alumni.html" >2023년 졸업생</a>                                
-                                        </li>  
+                                        </li>                                 
                                         <li class="sub">
                                             <a href="/alumni/2024/alumni.html" >2024년 졸업생</a>                                
                                         </li>  
@@ -474,5 +497,5 @@
                         </div>
                     </div>
                 </div>
-                <div class="title">제<b>4</b>회 성균관대학교 무용학과 레퍼토리/코레오랩 쇼케이스<br><!-- <div class="smal">2021. 11. 18 목요일 오후 7시 ~ 일요일 오후 7시  <span>(48시간 스트리밍)</span></div> --></div>        
+                <div class="title">제 <b>36</b>회 성균관대학교 무용학과<br> 작품발표회<!-- <div class="smal">2021. 11. 18 목요일 오후 7시 ~ 일요일 오후 7시  <span>(48시간 스트리밍)</span></div> --></div>        
                 </header>
