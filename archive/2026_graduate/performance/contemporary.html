@@ -1,0 +1,39 @@
+<?php include("../header.php"); ?>
+<link rel="stylesheet" href="/archive/css/style.css" />
+<link rel="stylesheet" href="/archive/css/media.css" />
+<div class="contents contemporary">
+  <div class="contem_inner">
+    <div class="title">PERFORMANCE</div>
+    <div class="big_title">컨템포러리 댄스<span>Contemporary Dance</span></div>
+  </div>
+
+  <div class="box_row">
+    <ul>
+      <!-- TODO: 학생 한 명당 <li> 하나. 번호는 detail/contem_NN.html, img/contemporary_N.jpg 와 맞춤 -->
+      <li>
+        <a href="/archive/2026_graduate/performance/detail/contem_01.html">
+          <img src="/archive/2026_graduate/performance/img/contemporary_1.jpg" alt="증명사진" class="images" />
+          <div class="t_box">
+            <p class="t_title">학생 이름</p>
+            <p class="t_dec">4학년 컨템포러리댄스</p>
+          </div>
+        </a>
+      </li>
+    </ul>
+    <div class="go_back2">
+      <a href="/archive/2026_graduate/index.html" class="btn">전체학과 보기<img src="/img/more_img.png" alt="더보기아이콘" /></a>
+    </div>
+  </div>
+  <!--페이지별 헤더이미지 로드-->
+  <script type="text/javascript">
+    $(document).ready(function () {
+      $("#skku_wrap .skku_inner").css({
+        background: "url(/archive/img/sub_header_bg_comtemporary.jpg)",
+        "background-repeat": "no-repeat",
+        "background-position": "center center",
+        "background-size": "cover",
+      });
+    });
+  </script>
+</div>
+<?php include("../footer.php"); ?>
