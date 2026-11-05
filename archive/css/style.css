@@ -138,3 +138,17 @@ a:active { text-decoration:none; }
 .detail_contents .sketch ul li a{width: 100%;display: block;}
 .detail_contents .sketch ul li a img {width: 100%;display: block;}
 .detail_contents .sketch ul::after {clear: both; display: block;content: '';}
+
+/* 발레 단체 작품 형식 (졸업발표회): 링크 없는 학생 카드 + 장면별 출연진 */
+.contents.ballet .box_row .img_box {background: #000; display: block;width: 100%;}
+.contents.ballet .box_row .img_box::after {display: inline-block; opacity:0;content: ''; width: 90%;height: 90%;border: 1px solid #fff;position: absolute;top: 5%;left: 5%; transition: ease-in-out .3s;}
+.contents.ballet .box_row .img_box img{width: 100%;display: block;aspect-ratio: 0.714;}
+.contents.ballet .box_row .img_box img.images{}
+.contents.ballet .box_row .img_box:hover::after {opacity:1; transition: ease-in-out .5s;}
+.contents.ballet .box_row .img_box:hover .t_box{opacity: 1; transition: ease-in-out .5s;}
+.contents.ballet .box_row .img_box:hover .images {opacity:0.3;}
+.contents.ballet .box_row .img_box .t_box {width: 90%;position: absolute;top: 50%; text-align: center;left: 50%; transform: translate(-50%, -50%);color: #fff;opacity:0; transition: ease-in-out .3s;}
+.contents.ballet .box_row .img_box .t_box .t_title {font-size: 24px;font-weight: 700; margin-bottom: 1em;line-height: 1.2em;}
+.contents.ballet .box_row .img_box .t_box .t_dec {font-size: 16px;font-weight: 500; line-height: 1.5em;}
+.detail_contents .dec_box .dec_item {font-size: 18px; font-weight: 300; margin-bottom: 2%; line-height: 1.5;}
+.detail_contents .dec_box .dec_item h3 {font-weight: 400;}
