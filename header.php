@@ -60,9 +60,9 @@
                                 <!-- 임시주석 -->
                                  <div class="sub">
                                     <i></i>
+                                    <a href="/archive/2025_showcase/performance/ballet.html">발레 <small>Ballet</small></a>
                                     <a href="/archive/2025_showcase/performance/contemporary.html">컨템포러리 댄스 <small>Contemporary Dance</small></a>
                                     <a href="/archive/2025_showcase/performance/korean_dance.html">한국무용 <small>Korean Dance</small></a>
-                                    <a href="/archive/2025_showcase/performance/ballet.html">발레 <small>Ballet</small></a>
                                 </div> 
                             </div>  
                         </li>
@@ -214,10 +214,14 @@
                                     <i></i>
                                     <a class="over" href="/alumni/2024/alumni.html">2024년 졸업생</a>
                                 </div>
-                                <!-- <div class="sub">
+                                <div class="sub">
                                     <i></i>
                                     <a class="over" href="/alumni/2025/alumni.html">2025년 졸업생</a>
-                                </div> -->
+                                </div>
+<div class="sub">
+                                    <i></i>
+                                    <a class="over" href="/alumni/2026/alumni.html">2026년 졸업생</a>
+                                </div>
                             </div>
                             
                         </li>
@@ -254,9 +258,9 @@
                                 <li class="first"><a href="/archive/2025_work/index.html">PERFORMANCE</a>     
                                     <!-- 임시주석 -->
                                      <ul class="cont_m cont_m_01">
-                                         <li class="sub"><a href="/archive/2025_work/performance/korean_dance.html" class="a_box">한국무용 <small>Korean Dance</small></a></li>
                                          <li class="sub"><a href="/archive/2025_work/performance/ballet.html" class="a_box">발레 <small>Ballet</small></a></li>
                                          <li class="sub"><a href="/archive/2025_work/performance/contemporary.html" class="a_box">컨템포러리 댄스 <small>Contemporary Dance</small></a></li>
+                                         <li class="sub"><a href="/archive/2025_work/performance/korean_dance.html" class="a_box">한국무용 <small>Korean Dance</small></a></li>
                                     </ul> 
                                 </li>
                                 <li class="first"><a href="#">ARCHIVE</a>
@@ -455,9 +459,12 @@
                                         <li class="sub">
                                             <a href="/alumni/2024/alumni.html" >2024년 졸업생</a>                                
                                         </li>  
-                                        <!-- <li class="sub">
+                                        <li class="sub">
                                             <a href="/alumni/2025/alumni.html" >2025년 졸업생</a>                                
-                                        </li>                                  -->
+                                        </li>
+<li class="sub">
+                                            <a href="/alumni/2026/alumni.html" >2026년 졸업생</a>                                
+                                        </li>
                                     </ul> 
                                 </li>
                                 <li>

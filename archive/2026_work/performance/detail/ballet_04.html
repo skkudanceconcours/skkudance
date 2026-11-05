@@ -1,0 +1,167 @@
+<?php include("../../header.php"); ?>
+<link rel="stylesheet" href="../css/style.css" />
+<link rel="stylesheet" href="../css/media.css" />
+<link rel="stylesheet" href="../css/swipebox.css" />
+<div class="contents contemporary">
+  <div class="go_back">
+    <a href="/archive/2026_work/performance/ballet.html" class="btn"
+      >작품목록<img src="/img/more_img.png" alt="더보기아이콘"
+    /></a>
+  </div>
+  <div class="contem_inner">
+    <div class="title">PERFORMANCE</div>
+    <div class="big_title">발레<span>Ballet</span></div>
+  </div>
+  <div class="detail_contents">
+    <div class="title_box">
+      <p class="title_p">카르미나 부라나 (Carmina Burana) 중에서</p>
+      <p class="title_description">오, 운명이여 (No. 1; "O Fortuna"), 원무 (No. 9; "Reie"), 소녀가 서 있네 (No. 17; "Stetit puella"), 내 마음 깊은 곳에서 (No. 18; "Circa mea pectora"), 오, 운명이여 (No. 25; "O Fortuna")
+        <br /><small>* No.는 Carmina Burana 원곡의 곡 번호를 의미합니다.</small></p>
+    </div>
+    <div class="explan_box">
+      <p class="title_p">작품내용</p>
+      <p class="dec_p">
+        「카르미나 부라나(Carmina Burana)」는 카를 오르프(C. Orff)가 중세 라틴
+        시집에서 영감을 받아 작곡한 칸타타이다. 본 공연은 카르미나 부라나의 일부
+        곡들을 발췌하여, 보르도 국립 오페라 발레단의 안무가인 M. 웨인로트(M.
+        Wainrot) 외, 여러 안무가들의 작품을 재구성하였다.
+      </p>
+    </div>
+    <div class="dec_box">
+      <div class="dec_wrap">
+        <ul>
+          <li>재구성 / 안무 |</li>
+          <li>M. Wainrot 외</li>
+        </ul>
+        <ul>
+          <li>음악 |</li>
+          <li>Carl Orff</li>
+        </ul>
+        <ul>
+          <li>출연 (4학년) |</li>
+          <li>
+            김민채, 김지민, 김태리, 박소현, 안은영, 이다영, 조아영, 조예원,
+            조준희, 지서현, 편하은, 한예린
+          </li>
+        </ul>
+        <ul>
+          <li>합창 |</li>
+          <li>시각장애인합창단 라파엘 코러스</li>
+        </ul>
+        <ul>
+          <li>단장 |</li>
+          <li>유영재</li>
+        </ul>
+        <ul>
+          <li>음악감독 |</li>
+          <li>이돈응</li>
+        </ul>
+        <ul>
+          <li>트레이너 |</li>
+          <li>김민주</li>
+        </ul>
+        <ul>
+          <li>피아노 |</li>
+          <li>문찬양</li>
+        </ul>
+        <ul>
+          <li>소프라노 |</li>
+          <li>
+            김채완, 남금주, 김금실, 정둘남, 최영진, 김소영, 김향숙, 이금희,
+            김영희, 이경아
+          </li>
+        </ul>
+        <ul>
+          <li>알토 |</li>
+          <li>유임미, 김명원, 김미경, 이복순, 김수현, 양다희</li>
+        </ul>
+        <ul>
+          <li>테너 |</li>
+          <li>한성수, 문광종, 박승진, 이재훈, 권오식, 정찬우</li>
+        </ul>
+        <ul>
+          <li>베이스 |</li>
+          <li>안덕인, 권기욱, 손대선, 김동일, 박상명, 박성철, 김선영</li>
+        </ul>
+      </div>
+    </div>
+    <!-- <div class="container sketch">
+      <p class="title_p">공연스케치</p>
+      <div class="wrap">
+        <div id="try"></div>
+        <ul id="box-container">
+          <li class="box">
+            <a
+              href="../img/ballet_01_sketch01.jpg"
+              class="swipebox"
+              rel="gallery"
+            >
+              <img src="../img/ballet_01_sketch01_thum.jpg" alt="image" />
+            </a>
+          </li>
+          <li class="box">
+            <a
+              href="../img/ballet_01_sketch02.jpg"
+              class="swipebox"
+              rel="gallery"
+            >
+              <img src="../img/ballet_01_sketch02_thum.jpg" alt="image" />
+            </a>
+          </li>
+          <li class="box">
+            <a
+              href="../img/ballet_01_sketch03.jpg"
+              class="swipebox"
+              rel="gallery"
+            >
+              <img src="../img/ballet_01_sketch03_thum.jpg" alt="image" />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div> -->
+    <div class="video" style="margin-top: 5%">
+      <img src="../img/ballet_4.jpg" class="증명사진" alt="카르미나 부라나" />
+    </div>
+  </div>
+
+  <!--라이트박스-->
+  <script src="/js/jquery.swipebox.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function () {
+      /* Basic Gallery */
+      $(".swipebox").swipebox({
+        loopAtEnd: true,
+      });
+
+      /* Dynamic Gallery */
+      $("#gallery").on("click", function (e) {
+        e.preventDefault();
+        $.swipebox([
+          { href: "demo/images/big-1.jpg", title: "My Caption" },
+          { href: "demo/images/big-2.jpg", title: "My Second Caption" },
+        ]);
+      });
+
+      /* Smooth scroll */
+      $(".scroll").on("click", function () {
+        $("html, body").animate(
+          { scrollTop: $($(this).attr("href")).offset().top - 15 },
+          750
+        ); // Go
+        return false;
+      });
+    });
+  </script>
+  <!--페이지별 헤더이미지 로드-->
+  <script type="text/javascript">
+    $(document).ready(function () {
+      $("#skku_wrap .skku_inner").css({
+        background: "url(/archive/img/sub_header_bg_ballet_ver2.jpg)",
+        "background-repeat": "no-repeat",
+        "background-position": "center center",
+      });
+    });
+  </script>
+</div>
+<?php include("../../footer.php"); ?>

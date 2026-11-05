@@ -1,0 +1,140 @@
+<?php include("../../header.php"); ?>
+<link rel="stylesheet" href="../css/style.css" />
+<link rel="stylesheet" href="../css/media.css" />
+<link rel="stylesheet" href="../css/swipebox.css" />
+<div class="contents contemporary">
+  <div class="go_back">
+    <a href="/archive/2026_work/performance/contemporary.html" class="btn"
+      >작품목록<img src="/img/more_img.png" alt="더보기아이콘"
+    /></a>
+  </div>
+  <div class="contem_inner">
+    <div class="title">PERFORMANCE</div>
+    <div class="big_title">컨템포러리 댄스<span>Contemporary Dance</span></div>
+  </div>
+  <div class="detail_contents">
+    <div class="title_box">
+      <p class="title_p">트룹</p>
+      <p class="title_description">
+        * <a href="http://nayekimmovement.org">NKMC</a>와의 협업으로 2023년도에
+        성균갤러리에서 초연되었으며, 본 공연에서는 일부 장면을 재구성하여
+        선보인다.
+      </p>
+    </div>
+    <div class="explan_box">
+      <p class="title_p">작품내용</p>
+      <p class="dec_p">
+        본 작품은 'MZ세대'의 무용수들로 구성되어 있어 MZ세대 '공동체'를 탐구한
+        것이다.<br /><br />
+        통계에 따르면, MZ세대는 한국 전체 인구의 약 34% 이상을 차지하고 있으며
+        미래를 이끌어 갈 주역이며 그들이 살아갈 사회는 급변하는 시대이기도
+        하다. 그들은 경제 침체에 영향을 받았고 소셜 미디어와 함께 성장하면서
+        현실공간에서 자신과 온라인에서의 또다른 자신이 공존한다. MZ세대는 뭔가
+        설명하기 어려운 독특한 특징들도 많으며 그야말로 복잡한 혼돈의 세대이다.
+      </p>
+    </div>
+    <div class="dec_box">
+      <div class="dec_wrap">
+        <ul>
+          <li>안무 |</li>
+          <li>아눅 반 다이크</li>
+        </ul>
+        <ul>
+          <li>리허설 디렉터 |</li>
+          <li>고흥열, 김명선</li>
+        </ul>
+        <ul>
+          <li>음악 |</li>
+          <li>트룹 (2023 Remastered ver.)</li>
+        </ul>
+        <ul>
+          <li>출연 |</li>
+          <li>
+            고나영, 김민채, 노예린, 박준이, 박진호, 서유정, 소재인, 송채은,
+            신설아, 오영건, 이지민, 전하은, 정은율, 최서후, 한주희
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- <div class="container sketch">
+      <p class="title_p">공연스케치</p>
+      <div class="wrap">
+        <div id="try"></div>
+        <ul id="box-container">
+          <li class="box">
+            <a
+              href="../img/contem_02_sketch01.jpg"
+              class="swipebox"
+              rel="gallery"
+            >
+              <img src="../img/contem_02_sketch01_thum.jpg" alt="image" />
+            </a>
+          </li>
+          <li class="box">
+            <a
+              href="../img/contem_02_sketch02.jpg"
+              class="swipebox"
+              rel="gallery"
+            >
+              <img src="../img/contem_02_sketch02_thum.jpg" alt="image" />
+            </a>
+          </li>
+          <li class="box">
+            <a
+              href="../img/contem_02_sketch03.jpg"
+              class="swipebox"
+              rel="gallery"
+            >
+              <img src="../img/contem_02_sketch03_thum.jpg" alt="image" />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div> -->
+
+    <div class="video" style="margin-top: 5%">
+      <img src="../img/contemporary_2.jpg" class="증명사진" alt="트룹" />
+    </div>
+  </div>
+
+  <!--라이트박스-->
+  <script src="/js/jquery.swipebox.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function () {
+      /* Basic Gallery */
+      $(".swipebox").swipebox({
+        loopAtEnd: true,
+      });
+
+      /* Dynamic Gallery */
+      $("#gallery").on("click", function (e) {
+        e.preventDefault();
+        $.swipebox([
+          { href: "demo/images/big-1.jpg", title: "My Caption" },
+          { href: "demo/images/big-2.jpg", title: "My Second Caption" },
+        ]);
+      });
+
+      /* Smooth scroll */
+      $(".scroll").on("click", function () {
+        $("html, body").animate(
+          { scrollTop: $($(this).attr("href")).offset().top - 15 },
+          750
+        ); // Go
+        return false;
+      });
+    });
+  </script>
+  <!--페이지별 헤더이미지 로드-->
+  <script type="text/javascript">
+    $(document).ready(function () {
+      $("#skku_wrap .skku_inner").css({
+        background: "url(/archive/img/sub_header_bg_comtemporary.jpg)",
+        "background-repeat": "no-repeat",
+        "background-position": "center center",
+      });
+    });
+  </script>
+</div>
+<?php include("../../footer.php"); ?>

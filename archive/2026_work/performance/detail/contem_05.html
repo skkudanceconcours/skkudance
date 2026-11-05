@@ -1,0 +1,106 @@
+<?php include("../../header.php"); ?>
+<link rel="stylesheet" href="../css/style.css" />
+<link rel="stylesheet" href="../css/media.css" />
+<link rel="stylesheet" href="../css/swipebox.css" />
+<div class="contents contemporary">
+  <div class="go_back">
+    <a href="/archive/2026_work/performance/contemporary.html" class="btn"
+      >작품목록<img src="/img/more_img.png" alt="더보기아이콘"
+    /></a>
+  </div>
+  <div class="contem_inner">
+    <div class="title">PERFORMANCE</div>
+    <div class="big_title">컨템포러리 댄스<span>Contemporary Dance</span></div>
+  </div>
+  <div class="detail_contents">
+    <div class="title_box">
+      <p class="title_p">Rhythms of the World, Written in the Body</p>
+      <p class="title_description">
+        * 본 작품은 University of Taipei 무용학과와 성균관대학교 무용학과의
+        협업으로 2026년에 대만에서 초연되었다.
+      </p>
+    </div>
+    <div class="explan_box">
+      <p class="title_p">작품내용</p>
+      <p class="dec_p">
+        이 작품은 신체 움직임의 미세한 감각을 탐색하고, 이를 통해 서로 다른
+        문화가 신체 안에서 어떻게 융합되는지를 드러낸다.<br /><br />
+        작품 속에서 개인과 집단, 그리고 문화 간의 관계는 끊임없이 재구성되며
+        새로운 의미를 만들어낸다. 또한 사회적 맥락 속에서 신체가 지니는 힘에
+        주목하며, 신체를 통해 세계를 이해하는 방식을 제안한다.
+      </p>
+    </div>
+    <div class="dec_box">
+      <div class="dec_wrap">
+        <ul>
+          <li>안무 |</li>
+          <li>김나이, 董怡芬(TUNG, I-Fen)</li>
+        </ul>
+        <ul>
+          <li>출연 (성균관대학교) |</li>
+          <li>
+            고나영, 김다빈, 김민채, 문정연, 문정원, 심태겸, 안준희, 오현준,
+            이다연, 최윤수, 한여원
+          </li>
+        </ul>
+        <ul>
+          <li>출연 (University of Taipei) |</li>
+          <li>
+            薛茗方(HSUEH, Ming-Fang), 李晏慈(LEE, Yen-Tzu), 林穎(LIN, Ying),
+            蔡伊蕎(TSAI, Yi-Chiao), 葉柔妡(YE, Rouxin), 洪語希(HUNG, Yu-hsi),
+            張薰尹(CHANG, Hsun-yin), 林語彤(LIN, Yu-tung), 何沛盈(HO, Pei-ying),
+            陳燁玟(CHEN, Yehwen), 黃鈺娟(HUANG, Yu-chuan), 洪愷均(HONG, Kai-jun)
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="video" style="margin-top: 5%">
+      <img
+        src="../img/contemporary_5.jpg"
+        class="증명사진"
+        alt="Rhythms of the World, Written in the Body"
+      />
+    </div>
+  </div>
+
+  <!--라이트박스-->
+  <script src="/js/jquery.swipebox.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function () {
+      /* Basic Gallery */
+      $(".swipebox").swipebox({
+        loopAtEnd: true,
+      });
+
+      /* Dynamic Gallery */
+      $("#gallery").on("click", function (e) {
+        e.preventDefault();
+        $.swipebox([
+          { href: "demo/images/big-1.jpg", title: "My Caption" },
+          { href: "demo/images/big-2.jpg", title: "My Second Caption" },
+        ]);
+      });
+
+      /* Smooth scroll */
+      $(".scroll").on("click", function () {
+        $("html, body").animate(
+          { scrollTop: $($(this).attr("href")).offset().top - 15 },
+          750,
+        ); // Go
+        return false;
+      });
+    });
+  </script>
+  <!--페이지별 헤더이미지 로드-->
+  <script type="text/javascript">
+    $(document).ready(function () {
+      $("#skku_wrap .skku_inner").css({
+        background: "url(/archive/img/sub_header_bg_comtemporary.jpg)",
+        "background-repeat": "no-repeat",
+        "background-position": "center center",
+      });
+    });
+  </script>
+</div>
+<?php include("../../footer.php"); ?>
